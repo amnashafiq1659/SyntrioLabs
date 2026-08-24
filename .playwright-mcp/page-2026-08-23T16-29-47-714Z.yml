@@ -1,0 +1,391 @@
+- generic [ref=f4e2]:
+  - banner [ref=f4e8]:
+    - navigation [ref=f4e9]:
+      - button "Wanderly Travels home" [ref=f4e10] [cursor=pointer]:
+        - img "Wanderly Logo" [ref=f4e11]
+        - generic [ref=f4e12]: Wanderly.
+      - generic [ref=f4e13]:
+        - button "Home" [ref=f4e14] [cursor=pointer]
+        - button "Destinations" [ref=f4e15] [cursor=pointer]
+        - button "Experiences" [ref=f4e16] [cursor=pointer]
+        - button "About" [ref=f4e17] [cursor=pointer]
+        - button "Travel Stories" [ref=f4e18] [cursor=pointer]
+        - button "Contact" [ref=f4e19] [cursor=pointer]
+      - button "Plan Your Trip" [ref=f4e21] [cursor=pointer]
+  - main [ref=f4e23]:
+    - generic [ref=f4e29]:
+      - generic [ref=f4e30]:
+        - generic [ref=f4e31]: Bespoke Journeys · Est. 2011
+        - heading "Go Somewhere You've Never Been." [level=1] [ref=f4e32]:
+          - generic [ref=f4e33]: Go Somewhere
+          - generic [ref=f4e35]: You've Never Been.
+        - paragraph [ref=f4e37]: We design unforgettable, deeply personal journeys to the world's most extraordinary places — crafted around the way you love to travel.
+        - generic [ref=f4e38]:
+          - button "Explore Destinations" [ref=f4e39] [cursor=pointer]
+          - button "Plan My Trip" [ref=f4e43] [cursor=pointer]
+      - generic [ref=f4e47]:
+        - generic [ref=f4e48]:
+          - generic [ref=f4e49]: Destination
+          - combobox [ref=f4e54] [cursor=pointer]:
+            - option "Where to?" [selected]
+            - option "Maldives"
+            - option "Dubai"
+            - option "Switzerland"
+            - option "Bali"
+            - option "Turkey"
+            - option "Japan"
+        - generic [ref=f4e55]:
+          - generic [ref=f4e56]: Dates
+          - textbox [ref=f4e60] [cursor=pointer]:
+            - /placeholder: dd/mm/yyyy
+        - generic [ref=f4e61]:
+          - generic [ref=f4e62]: Travelers
+          - generic [ref=f4e69]:
+            - button "Decrease travelers" [ref=f4e70] [cursor=pointer]: –
+            - generic [ref=f4e71]: 2 guests
+            - button "Increase travelers" [ref=f4e72] [cursor=pointer]: +
+        - generic [ref=f4e73]:
+          - generic [ref=f4e74]: Trip type
+          - combobox [ref=f4e78] [cursor=pointer]:
+            - option "Luxury Getaway" [selected]
+            - option "Adventure"
+            - option "Island Escape"
+            - option "Cultural Exploration"
+            - option "Honeymoon"
+            - option "Family Trip"
+        - button "Search" [ref=f4e80] [cursor=pointer]
+    - generic [ref=f4e83]:
+      - generic [ref=f4e84]:
+        - generic [ref=f4e85]: Popular Destinations
+        - heading "Places worth crossing the world for" [level=2] [ref=f4e88]
+        - paragraph [ref=f4e90]: Six destinations our travelers return from raving about — each one shaped into a journey, not just a pin on a map.
+      - generic [ref=f4e91]:
+        - link [ref=f4e93] [cursor=pointer]:
+          - /url: /destinations/maldives
+          - article [ref=f4e94]:
+            - img "Maldives" [ref=f4e95]
+            - generic [ref=f4e97]: Island Escape
+            - generic [ref=f4e98]:
+              - paragraph [ref=f4e99]: Indian Ocean
+              - heading "Maldives" [level=3] [ref=f4e100]
+              - generic:
+                - generic:
+                  - paragraph [ref=f4e101]: Overwater villas, coral reefs, and endless turquoise horizons in the world's most serene archipelago.
+                  - generic [ref=f4e103]:
+                    - text: From
+                    - paragraph [ref=f4e104]: $2,400 /person
+              - generic [ref=f4e109]: From $2,400 / person
+        - link [ref=f4e114] [cursor=pointer]:
+          - /url: /destinations/dubai
+          - article [ref=f4e115]:
+            - img "Dubai" [ref=f4e116]
+            - generic [ref=f4e118]: Luxury Getaway
+            - generic [ref=f4e119]:
+              - paragraph [ref=f4e120]: United Arab Emirates
+              - heading "Dubai" [level=3] [ref=f4e121]
+              - generic:
+                - generic:
+                  - paragraph [ref=f4e122]: Where futuristic skylines meet golden dunes — luxury, adventure, and desert nights under the stars.
+                  - generic [ref=f4e124]:
+                    - text: From
+                    - paragraph [ref=f4e125]: $1,850 /person
+              - generic [ref=f4e130]: From $1,850 / person
+        - link [ref=f4e135] [cursor=pointer]:
+          - /url: /destinations/switzerland
+          - article [ref=f4e136]:
+            - img "Switzerland" [ref=f4e137]
+            - generic [ref=f4e139]: Mountain Adventure
+            - generic [ref=f4e140]:
+              - paragraph [ref=f4e141]: Central Europe
+              - heading "Switzerland" [level=3] [ref=f4e142]
+              - generic:
+                - generic:
+                  - paragraph [ref=f4e143]: Snow-capped peaks, alpine villages, and crystalline lakes framed by the most dramatic mountain scenery on earth.
+                  - generic [ref=f4e145]:
+                    - text: From
+                    - paragraph [ref=f4e146]: $2,100 /person
+              - generic [ref=f4e151]: From $2,100 / person
+        - link [ref=f4e156] [cursor=pointer]:
+          - /url: /destinations/bali
+          - article [ref=f4e157]:
+            - img "Bali" [ref=f4e158]
+            - generic [ref=f4e160]: Cultural Exploration
+            - generic [ref=f4e161]:
+              - paragraph [ref=f4e162]: Indonesia
+              - heading "Bali" [level=3] [ref=f4e163]
+              - generic:
+                - generic:
+                  - paragraph [ref=f4e164]: Emerald rice terraces, hidden waterfalls, and spiritual temples woven into a lush tropical paradise.
+                  - generic [ref=f4e166]:
+                    - text: From
+                    - paragraph [ref=f4e167]: $1,450 /person
+              - generic [ref=f4e172]: From $1,450 / person
+        - link [ref=f4e177] [cursor=pointer]:
+          - /url: /destinations/turkey
+          - article [ref=f4e178]:
+            - img "Turkey" [ref=f4e179]
+            - generic [ref=f4e181]: Cultural Exploration
+            - generic [ref=f4e182]:
+              - paragraph [ref=f4e183]: Eurasia
+              - heading "Turkey" [level=3] [ref=f4e184]
+              - generic:
+                - generic:
+                  - paragraph [ref=f4e185]: Sunrise balloon rides over Cappadocia's fairy chimneys, bazaars, and centuries of living history.
+                  - generic [ref=f4e187]:
+                    - text: From
+                    - paragraph [ref=f4e188]: $1,650 /person
+              - generic [ref=f4e193]: From $1,650 / person
+        - link [ref=f4e198] [cursor=pointer]:
+          - /url: /destinations/japan
+          - article [ref=f4e199]:
+            - img "Japan" [ref=f4e200]
+            - generic [ref=f4e202]: Cultural Exploration
+            - generic [ref=f4e203]:
+              - paragraph [ref=f4e204]: East Asia
+              - heading "Japan" [level=3] [ref=f4e205]
+              - generic:
+                - generic:
+                  - paragraph [ref=f4e206]: Cherry blossoms, ancient temples, and neon cities — a seamless dance of tradition and modernity.
+                  - generic [ref=f4e208]:
+                    - text: From
+                    - paragraph [ref=f4e209]: $2,800 /person
+              - generic [ref=f4e214]: From $2,800 / person
+      - button "Can't decide? Get a recommendation" [ref=f4e219] [cursor=pointer]
+    - generic [ref=f4e225]:
+      - generic [ref=f4e226]:
+        - generic [ref=f4e227]: Why Travel With Us
+        - heading "Built for travelers who notice the details" [level=2] [ref=f4e230]
+        - paragraph [ref=f4e232]: We're a small team of obsessive trip designers. The difference is in the thousand small decisions that make a journey feel effortless.
+      - generic [ref=f4e233]:
+        - generic [ref=f4e235]:
+          - heading "Personalized Itineraries" [level=3] [ref=f4e241]
+          - paragraph [ref=f4e242]: Every journey is crafted around your pace, interests, and travel dreams — never off-the-shelf.
+        - generic [ref=f4e244]:
+          - heading "Handpicked Experiences" [level=3] [ref=f4e249]
+          - paragraph [ref=f4e250]: We vet every stay, guide, and experience in person so you only get the genuinely remarkable.
+        - generic [ref=f4e252]:
+          - heading "Best-Price Guidance" [level=3] [ref=f4e257]
+          - paragraph [ref=f4e258]: Transparent pricing and smart routing that maximizes value without cutting corners on quality.
+        - generic [ref=f4e260]:
+          - heading "24/7 Travel Support" [level=3] [ref=f4e265]
+          - paragraph [ref=f4e266]: A real human is one message away, wherever you are, whatever the hour, for your entire trip.
+      - generic [ref=f4e267]:
+        - generic [ref=f4e269]:
+          - generic [ref=f4e270]:
+            - generic [ref=f4e271]: "0"
+            - text: K+
+          - paragraph [ref=f4e272]: Travelers served
+        - generic [ref=f4e274]:
+          - generic [ref=f4e275]:
+            - generic [ref=f4e276]: "0"
+            - text: +
+          - paragraph [ref=f4e277]: Destinations covered
+        - generic [ref=f4e279]:
+          - generic [ref=f4e280]:
+            - generic [ref=f4e281]: "0.0"
+            - text: /5
+          - paragraph [ref=f4e282]: Average trip rating
+        - generic [ref=f4e284]:
+          - generic [ref=f4e285]:
+            - generic [ref=f4e286]: "0"
+            - text: /7
+          - paragraph [ref=f4e287]: Support, worldwide
+    - generic [ref=f4e289]:
+      - generic [ref=f4e290]:
+        - generic [ref=f4e291]: Featured Experiences
+        - heading "Choose your kind of adventure" [level=2] [ref=f4e294]
+        - paragraph [ref=f4e296]: Tell us the feeling you're after — we'll find the place, the people, and the moments that deliver it.
+      - generic [ref=f4e298]:
+        - link [ref=f4e300] [cursor=pointer]:
+          - /url: /experiences/desert-safari
+          - article [ref=f4e301]:
+            - img "Desert Safari" [ref=f4e302]
+            - generic [ref=f4e311]:
+              - heading "Desert Safari" [level=3] [ref=f4e312]
+              - generic:
+                - generic:
+                  - paragraph [ref=f4e313]: Dune bashing, camel treks, and Bedouin dinners beneath a canopy of desert stars.
+                  - generic [ref=f4e314]: Discover this
+        - link [ref=f4e319] [cursor=pointer]:
+          - /url: /experiences/mountain-adventure
+          - article [ref=f4e320]:
+            - img "Mountain Adventure" [ref=f4e321]
+            - generic [ref=f4e326]:
+              - heading "Mountain Adventure" [level=3] [ref=f4e327]
+              - generic:
+                - generic:
+                  - paragraph [ref=f4e328]: Hike alpine trails, summit rugged peaks, and breathe in the silence of the high country.
+                  - generic [ref=f4e329]: Discover this
+        - link [ref=f4e334] [cursor=pointer]:
+          - /url: /experiences/island-escape
+          - article [ref=f4e335]:
+            - img "Island Escape" [ref=f4e336]
+            - generic [ref=f4e344]:
+              - heading "Island Escape" [level=3] [ref=f4e345]
+              - generic:
+                - generic:
+                  - paragraph [ref=f4e346]: Hammocks, turquoise lagoons, and days measured only by the rhythm of the tide.
+                  - generic [ref=f4e347]: Discover this
+        - link [ref=f4e352] [cursor=pointer]:
+          - /url: /experiences/cultural-exploration
+          - article [ref=f4e353]:
+            - img "Cultural Exploration" [ref=f4e354]
+            - generic [ref=f4e359]:
+              - heading "Cultural Exploration" [level=3] [ref=f4e360]
+              - generic:
+                - generic:
+                  - paragraph [ref=f4e361]: Wander ancient temples, vibrant markets, and living traditions that span millennia.
+                  - generic [ref=f4e362]: Discover this
+        - link [ref=f4e367] [cursor=pointer]:
+          - /url: /experiences/luxury-getaway
+          - article [ref=f4e368]:
+            - img "Luxury Getaway" [ref=f4e369]
+            - generic [ref=f4e375]:
+              - heading "Luxury Getaway" [level=3] [ref=f4e376]
+              - generic:
+                - generic:
+                  - paragraph [ref=f4e377]: Private villas, infinity pools, and curated indulgence in the world's most beautiful settings.
+                  - generic [ref=f4e378]: Discover this
+    - generic [ref=f4e383]:
+      - generic [ref=f4e384]:
+        - generic [ref=f4e385]: How It Works
+        - heading "Three steps to your next journey" [level=2] [ref=f4e388]
+        - paragraph [ref=f4e390]: No endless forms, no hold music. A real conversation with someone who knows the place.
+      - generic [ref=f4e393]:
+        - generic [ref=f4e395]:
+          - generic [ref=f4e396]: "01"
+          - heading "Choose" [level=3] [ref=f4e402]
+          - paragraph [ref=f4e403]: Browse curated destinations and pick the one that calls to you — or let our specialists recommend.
+        - generic [ref=f4e405]:
+          - generic [ref=f4e406]: "02"
+          - heading "Customize" [level=3] [ref=f4e410]
+          - paragraph [ref=f4e411]: "Shape every detail with your travel designer: pace, experiences, stays, and the moments that matter."
+        - generic [ref=f4e413]:
+          - generic [ref=f4e414]: "03"
+          - heading "Travel" [level=3] [ref=f4e419]
+          - paragraph [ref=f4e420]: Set off with a fully planned journey and round-the-clock support — just be present and enjoy.
+      - generic [ref=f4e422]:
+        - generic [ref=f4e423]: "Average planning time:"
+        - generic [ref=f4e424]: 2 conversations · 3 days
+    - generic [ref=f4e426]:
+      - generic [ref=f4e427]:
+        - generic [ref=f4e428]:
+          - generic [ref=f4e429]: Travel Stories
+          - heading "Dispatches from the road" [level=2] [ref=f4e432]
+          - paragraph [ref=f4e434]: Field notes, tips, and stories from our travelers and trip designers — written between flights.
+        - link "Read all stories" [ref=f4e435] [cursor=pointer]:
+          - /url: /stories/chasing-sunrise-in-cappadocia
+      - generic [ref=f4e439]:
+        - link [ref=f4e441] [cursor=pointer]:
+          - /url: /stories/chasing-sunrise-in-cappadocia
+          - article [ref=f4e442]:
+            - generic [ref=f4e443]:
+              - img "Chasing Sunrise in Cappadocia" [ref=f4e444]
+              - generic [ref=f4e445]: Travel Stories
+            - generic [ref=f4e446]:
+              - generic [ref=f4e447]: 6 min read
+              - heading "Chasing Sunrise in Cappadocia" [level=3] [ref=f4e451]
+              - paragraph [ref=f4e452]: A pre-dawn balloon ride over a landscape that feels borrowed from another planet — and what it taught us about stillness.
+              - generic [ref=f4e453]: By Lena Marquez
+        - link [ref=f4e459] [cursor=pointer]:
+          - /url: /stories/the-quiet-side-of-bali
+          - article [ref=f4e460]:
+            - generic [ref=f4e461]:
+              - img "The Quiet Side of Bali" [ref=f4e462]
+              - generic [ref=f4e463]: Travel Tips
+            - generic [ref=f4e464]:
+              - generic [ref=f4e465]: 8 min read
+              - heading "The Quiet Side of Bali" [level=3] [ref=f4e469]
+              - paragraph [ref=f4e470]: Beyond the crowds, we found a Bali of hidden waterfalls, family kitchens, and mornings that move at the pace of rice.
+              - generic [ref=f4e471]: By Daniel Okafor
+        - link [ref=f4e477] [cursor=pointer]:
+          - /url: /stories/two-weeks-no-itinerary
+          - article [ref=f4e478]:
+            - generic [ref=f4e479]:
+              - img "Two Weeks, No Itinerary" [ref=f4e480]
+              - generic [ref=f4e481]: Traveler Experiences
+            - generic [ref=f4e482]:
+              - generic [ref=f4e483]: 5 min read
+              - heading "Two Weeks, No Itinerary" [level=3] [ref=f4e487]
+              - paragraph [ref=f4e488]: What happens when you let a country surprise you. A traveler's case for leaving the plan behind — sometimes.
+              - generic [ref=f4e489]: By Priya Nair
+    - generic [ref=f4e495]:
+      - generic [ref=f4e496]:
+        - generic [ref=f4e497]: Testimonials
+        - heading "Travelers who came back different" [level=2] [ref=f4e500]
+        - paragraph [ref=f4e502]: A few words from people who trusted us with their hard-earned time off.
+      - generic [ref=f4e503]:
+        - generic [ref=f4e506]:
+          - paragraph [ref=f4e521]: "\"Every single detail was handled. We showed up and Wanderly had thought of things we didn't even know we wanted. The overwater villa was beyond what was promised.\""
+          - generic [ref=f4e522]:
+            - img "Marcus Bennett" [ref=f4e523]
+            - generic [ref=f4e524]:
+              - paragraph [ref=f4e525]: Marcus Bennett
+              - paragraph [ref=f4e526]: Austin, USA · traveled to Maldives
+        - generic [ref=f4e527]:
+          - button "Previous testimonial" [ref=f4e528] [cursor=pointer]
+          - generic [ref=f4e531]:
+            - button "Go to testimonial 1" [ref=f4e532] [cursor=pointer]
+            - button "Go to testimonial 2" [ref=f4e533] [cursor=pointer]
+            - button "Go to testimonial 3" [ref=f4e534] [cursor=pointer]
+            - button "Go to testimonial 4" [ref=f4e535] [cursor=pointer]
+          - button "Next testimonial" [ref=f4e536] [cursor=pointer]
+    - generic [ref=f4e539]:
+      - img "Couple enjoying a romantic boat ride at sunset" [ref=f4e541]
+      - generic [ref=f4e543]:
+        - generic [ref=f4e544]: Your next story starts here
+        - heading "The journey you keep meaning to take" [level=2] [ref=f4e547]
+        - paragraph [ref=f4e549]: Tell us where you've been dreaming of. We'll turn it into a trip you'll talk about for years.
+        - button "Start Planning" [ref=f4e552] [cursor=pointer]
+  - contentinfo [ref=f4e556]:
+    - generic [ref=f4e557]:
+      - generic [ref=f4e558]:
+        - generic [ref=f4e559]:
+          - generic [ref=f4e560]:
+            - img "Wanderly Logo" [ref=f4e561]
+            - generic [ref=f4e562]: Wanderly.
+          - paragraph [ref=f4e563]: Curated journeys for travelers who want more than a checklist. Designed by hand, since 2018.
+          - generic [ref=f4e564]:
+            - link "Social link" [ref=f4e565] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=f4e569] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=f4e572] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=f4e575] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f4e579]:
+          - heading "Explore" [level=4] [ref=f4e580]
+          - list [ref=f4e581]:
+            - listitem [ref=f4e582]:
+              - button "Destinations" [ref=f4e583] [cursor=pointer]
+            - listitem [ref=f4e584]:
+              - button "Experiences" [ref=f4e585] [cursor=pointer]
+            - listitem [ref=f4e586]:
+              - button "Travel Stories" [ref=f4e587] [cursor=pointer]
+            - listitem [ref=f4e588]:
+              - button "Why Travel With Us" [ref=f4e589] [cursor=pointer]
+        - generic [ref=f4e590]:
+          - heading "Company" [level=4] [ref=f4e591]
+          - list [ref=f4e592]:
+            - listitem [ref=f4e593]:
+              - button "About Us" [ref=f4e594] [cursor=pointer]
+            - listitem [ref=f4e595]:
+              - button "Contact" [ref=f4e596] [cursor=pointer]
+            - listitem [ref=f4e597]:
+              - button "Careers" [ref=f4e598] [cursor=pointer]
+            - listitem [ref=f4e599]:
+              - button "Press" [ref=f4e600] [cursor=pointer]
+        - generic [ref=f4e601]:
+          - heading "Start planning" [level=4] [ref=f4e602]
+          - paragraph [ref=f4e603]: Get a draft itinerary within 24 hours. No commitment.
+          - button "Plan Your Trip" [ref=f4e604] [cursor=pointer]
+      - generic [ref=f4e605]:
+        - paragraph [ref=f4e606]: © 2026 Wanderly Travels. All rights reserved.
+        - generic [ref=f4e607]:
+          - link "Privacy" [ref=f4e608] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms" [ref=f4e609] [cursor=pointer]:
+            - /url: "#"
+          - link "Cookies" [ref=f4e610] [cursor=pointer]:
+            - /url: "#"

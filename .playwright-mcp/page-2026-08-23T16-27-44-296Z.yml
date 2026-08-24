@@ -1,0 +1,391 @@
+- generic [ref=f3e3]:
+  - banner [ref=f3e4]:
+    - generic [ref=f3e6]:
+      - link "Maison Noir" [ref=f3e7] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f3e8]:
+        - link "Home" [ref=f3e9] [cursor=pointer]:
+          - /url: /
+        - link "Properties" [ref=f3e11] [cursor=pointer]:
+          - /url: /properties
+        - link "Locations" [ref=f3e12] [cursor=pointer]:
+          - /url: /locations
+        - link "Agents" [ref=f3e13] [cursor=pointer]:
+          - /url: /agents
+        - link "About" [ref=f3e14] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=f3e15] [cursor=pointer]:
+          - /url: /contact
+      - button "Talk to an Agent" [ref=f3e17] [cursor=pointer]
+  - main [ref=f3e18]:
+    - generic [ref=f3e19]:
+      - img "Luxury modern home exterior" [ref=f3e22]
+      - generic [ref=f3e25]:
+        - generic [ref=f3e26]:
+          - paragraph [ref=f3e27]: Boutique Real Estate — Est. 2007
+          - heading "Find a place worth coming home to." [level=1] [ref=f3e29]: Find a place worthcoming home to.
+          - paragraph [ref=f3e30]: We curate exceptional homes across the world's most sought-after locations — each selected for architecture, character, and a sense of place.
+        - generic [ref=f3e33]:
+          - generic [ref=f3e34]:
+            - generic [ref=f3e35]: Location
+            - combobox [ref=f3e39] [cursor=pointer]:
+              - option "All locations" [selected]
+              - option "Amalfi Coast"
+              - option "Aspen"
+              - option "Barcelona"
+              - option "Beverly Hills"
+              - option "Boston"
+              - option "Chicago"
+              - option "Costa Brava"
+              - option "Hamptons"
+              - option "Hudson Valley"
+              - option "New York"
+              - option "Paris"
+          - generic [ref=f3e40]:
+            - generic [ref=f3e41]: Property Type
+            - combobox [ref=f3e45] [cursor=pointer]:
+              - option "All types" [selected]
+              - option "Apartment"
+              - option "Estate"
+              - option "Loft"
+              - option "Penthouse"
+              - option "Townhouse"
+              - option "Villa"
+          - generic [ref=f3e46]:
+            - generic [ref=f3e47]: Max Price
+            - combobox [ref=f3e50] [cursor=pointer]:
+              - option "Any price" [selected]
+              - option "Up to $2M"
+              - option "Up to $5M"
+              - option "Up to $10M"
+              - option "Up to $20M"
+          - generic [ref=f3e51]:
+            - generic [ref=f3e52]: Bedrooms
+            - combobox [ref=f3e55] [cursor=pointer]:
+              - option "Any" [selected]
+              - option "2+"
+              - option "3+"
+              - option "4+"
+              - option "5+"
+          - button "Search" [ref=f3e56] [cursor=pointer]
+    - generic [ref=f3e62]:
+      - generic [ref=f3e63]:
+        - generic [ref=f3e64]:
+          - paragraph [ref=f3e65]: Featured Listings
+          - heading "Currently in our portfolio" [level=2] [ref=f3e66]
+        - link "View all properties" [ref=f3e67] [cursor=pointer]:
+          - /url: /properties
+      - generic [ref=f3e70]:
+        - link "The Linden Residence For Sale $4.8M View Property Hamptons, New York The Linden Residence 5 4 620 m²" [ref=f3e71] [cursor=pointer]:
+          - /url: /properties/the-linden-residence
+          - generic [ref=f3e72]:
+            - img "The Linden Residence" [ref=f3e73]
+            - generic [ref=f3e75]: For Sale
+            - generic [ref=f3e77]:
+              - paragraph [ref=f3e79]: $4.8M
+              - generic [ref=f3e80]: View Property
+          - generic [ref=f3e81]:
+            - generic [ref=f3e82]: Hamptons, New York
+            - heading "The Linden Residence" [level=3] [ref=f3e86]
+            - generic [ref=f3e87]:
+              - generic [ref=f3e88]: "5"
+              - generic [ref=f3e91]: "4"
+              - generic [ref=f3e95]: 620 m²
+        - link "Maison Bellevue For Sale $12.8M View Property Beverly Hills, California Maison Bellevue 7 8 1100 m²" [ref=f3e101] [cursor=pointer]:
+          - /url: /properties/maison-bellevue
+          - generic [ref=f3e102]:
+            - img "Maison Bellevue" [ref=f3e103]
+            - generic [ref=f3e105]: For Sale
+            - generic [ref=f3e107]:
+              - paragraph [ref=f3e109]: $12.8M
+              - generic [ref=f3e110]: View Property
+          - generic [ref=f3e111]:
+            - generic [ref=f3e112]: Beverly Hills, California
+            - heading "Maison Bellevue" [level=3] [ref=f3e116]
+            - generic [ref=f3e117]:
+              - generic [ref=f3e118]: "7"
+              - generic [ref=f3e121]: "8"
+              - generic [ref=f3e125]: 1100 m²
+        - link "The Ashbury Loft For Sale $3.2M View Property Tribeca, New York The Ashbury Loft 3 3 280 m²" [ref=f3e131] [cursor=pointer]:
+          - /url: /properties/the-ashbury-loft
+          - generic [ref=f3e132]:
+            - img "The Ashbury Loft" [ref=f3e133]
+            - generic [ref=f3e135]: For Sale
+            - generic [ref=f3e137]:
+              - paragraph [ref=f3e139]: $3.2M
+              - generic [ref=f3e140]: View Property
+          - generic [ref=f3e141]:
+            - generic [ref=f3e142]: Tribeca, New York
+            - heading "The Ashbury Loft" [level=3] [ref=f3e146]
+            - generic [ref=f3e147]:
+              - generic [ref=f3e148]: "3"
+              - generic [ref=f3e151]: "3"
+              - generic [ref=f3e155]: 280 m²
+        - link "Villa Amaranto For Sale $6.8M View Property Amalfi Coast, Italy Villa Amaranto 4 5 480 m²" [ref=f3e161] [cursor=pointer]:
+          - /url: /properties/villa-amaranto
+          - generic [ref=f3e162]:
+            - img "Villa Amaranto" [ref=f3e163]
+            - generic [ref=f3e165]: For Sale
+            - generic [ref=f3e167]:
+              - paragraph [ref=f3e169]: $6.8M
+              - generic [ref=f3e170]: View Property
+          - generic [ref=f3e171]:
+            - generic [ref=f3e172]: Amalfi Coast, Italy
+            - heading "Villa Amaranto" [level=3] [ref=f3e176]
+            - generic [ref=f3e177]:
+              - generic [ref=f3e178]: "4"
+              - generic [ref=f3e181]: "5"
+              - generic [ref=f3e185]: 480 m²
+        - link "Skyline Penthouse New $4.1M View Property Chicago, Illinois Skyline Penthouse 3 4 360 m²" [ref=f3e191] [cursor=pointer]:
+          - /url: /properties/penthouses-at-skyline
+          - generic [ref=f3e192]:
+            - img "Skyline Penthouse" [ref=f3e193]
+            - generic [ref=f3e195]: New
+            - generic [ref=f3e197]:
+              - paragraph [ref=f3e199]: $4.1M
+              - generic [ref=f3e200]: View Property
+          - generic [ref=f3e201]:
+            - generic [ref=f3e202]: Chicago, Illinois
+            - heading "Skyline Penthouse" [level=3] [ref=f3e206]
+            - generic [ref=f3e207]:
+              - generic [ref=f3e208]: "3"
+              - generic [ref=f3e211]: "4"
+              - generic [ref=f3e215]: 360 m²
+    - generic [ref=f3e222]:
+      - generic [ref=f3e223]:
+        - paragraph [ref=f3e224]: Why Meridian Estates
+        - heading "An agency built on discernment, not volume" [level=2] [ref=f3e225]
+      - generic [ref=f3e226]:
+        - generic [ref=f3e227]:
+          - heading "Curated Properties" [level=3] [ref=f3e230]
+          - paragraph [ref=f3e231]: Every listing is hand-selected for architectural merit, location, and distinctive character — never simply listed.
+        - generic [ref=f3e232]:
+          - heading "Local Expertise" [level=3] [ref=f3e236]
+          - paragraph [ref=f3e237]: Our advisors live in and deeply understand the neighborhoods they represent, from market trends to community life.
+        - generic [ref=f3e238]:
+          - heading "Personal Guidance" [level=3] [ref=f3e244]
+          - paragraph [ref=f3e245]: We work with a limited number of clients at a time, ensuring attentive, one-to-one service through every stage.
+        - generic [ref=f3e246]:
+          - heading "Trusted Transactions" [level=3] [ref=f3e250]
+          - paragraph [ref=f3e251]: Eighteen years of experience and a network of vetted legal, financial, and design partners protect every transaction.
+    - generic [ref=f3e253]:
+      - generic [ref=f3e254]:
+        - paragraph [ref=f3e255]: Property Showcase
+        - heading "A closer look" [level=2] [ref=f3e256]
+      - generic [ref=f3e257]:
+        - generic [ref=f3e258]:
+          - generic [ref=f3e259]:
+            - img "The Linden Residence" [ref=f3e261]
+            - link "View Property" [ref=f3e262] [cursor=pointer]:
+              - /url: /properties/the-linden-residence
+          - generic [ref=f3e266]:
+            - paragraph [ref=f3e267]: Villa — Hamptons, New York
+            - heading "The Linden Residence" [level=3] [ref=f3e268]
+            - paragraph [ref=f3e269]: A striking modernist villa set behind private hedging on a quiet lane in the Hamptons. Floor-to-ceiling glazing wraps the main living volume, drawing the landscape inward. White oak floors, limewashed walls, and a restrained material palette create a serene, gallery-like atmosphere throughout. The primary suite occupies its own wing, with a private terrace overlooking the landscaped grounds and infinity-edge pool.
+            - generic [ref=f3e270]:
+              - generic [ref=f3e271]: $4.8M
+              - generic [ref=f3e272]: 5 bed · 4 bath · 620 m²
+            - link "View Property" [ref=f3e273] [cursor=pointer]:
+              - /url: /properties/the-linden-residence
+        - generic [ref=f3e276]:
+          - generic [ref=f3e277]:
+            - img "Maison Bellevue" [ref=f3e279]
+            - link "View Property" [ref=f3e280] [cursor=pointer]:
+              - /url: /properties/maison-bellevue
+          - generic [ref=f3e284]:
+            - paragraph [ref=f3e285]: Estate — Beverly Hills, California
+            - heading "Maison Bellevue" [level=3] [ref=f3e286]
+            - paragraph [ref=f3e287]: Maison Bellevue is a monumental contemporary estate perched above the city with panoramic views from the Pacific to the Hollywood Hills. The residence spans three levels connected by a glass-walled staircase and private elevator. Italian marble, American walnut, and bespoke millwork define the interiors, while the grounds feature a 25-meter lap pool, tennis court, and mature specimen trees.
+            - generic [ref=f3e288]:
+              - generic [ref=f3e289]: $12.8M
+              - generic [ref=f3e290]: 7 bed · 8 bath · 1100 m²
+            - link "View Property" [ref=f3e291] [cursor=pointer]:
+              - /url: /properties/maison-bellevue
+    - generic [ref=f3e296]:
+      - generic [ref=f3e297]:
+        - img "Elegant residential architecture at night" [ref=f3e299]
+        - img "Interior detail" [ref=f3e301]
+      - generic [ref=f3e302]:
+        - paragraph [ref=f3e303]: About the Agency
+        - heading "Eighteen years of finding homes that matter" [level=2] [ref=f3e304]
+        - paragraph [ref=f3e305]: "Meridian Estates was founded on a simple conviction: that finding a home is one of life's most significant decisions, and it deserves more than a transaction. We approach each property as a story — its architecture, its setting, the life it offers — and each client as someone whose story we're entrusted to understand."
+        - paragraph [ref=f3e306]: From a Manhattan loft to a villa on the Amalfi Coast, we represent a carefully curated portfolio across twelve cities and four countries. Our advisors bring backgrounds in architecture, hospitality, and design, and we limit how many clients we take on so that every relationship receives the attention it deserves.
+        - generic [ref=f3e307]:
+          - generic [ref=f3e308]:
+            - generic [ref=f3e309]: 250+
+            - generic [ref=f3e310]: Properties Sold
+          - generic [ref=f3e311]:
+            - generic [ref=f3e312]: "18"
+            - generic [ref=f3e313]: Years Experience
+          - generic [ref=f3e314]:
+            - generic [ref=f3e315]: "12"
+            - generic [ref=f3e316]: Cities
+          - generic [ref=f3e317]:
+            - generic [ref=f3e318]: 98%
+            - generic [ref=f3e319]: Client Satisfaction
+        - link "Read our story" [ref=f3e320] [cursor=pointer]:
+          - /url: /about
+    - generic [ref=f3e324]:
+      - generic [ref=f3e325]:
+        - generic [ref=f3e326]:
+          - paragraph [ref=f3e327]: Neighborhoods
+          - heading "Where we work" [level=2] [ref=f3e328]
+        - link "All locations" [ref=f3e329] [cursor=pointer]:
+          - /url: /locations
+      - generic [ref=f3e332]:
+        - link "The Hamptons New York, USA The Hamptons Coastal estates and modernist retreats along Long Island's most refined shoreline. 48 properties · $4.8M Explore Area" [ref=f3e333] [cursor=pointer]:
+          - /url: /locations/hamptons
+          - img "The Hamptons" [ref=f3e334]
+          - generic [ref=f3e336]:
+            - paragraph [ref=f3e337]: New York, USA
+            - heading "The Hamptons" [level=3] [ref=f3e338]
+            - paragraph [ref=f3e339]: Coastal estates and modernist retreats along Long Island's most refined shoreline.
+            - generic [ref=f3e340]:
+              - generic [ref=f3e341]: 48 properties · $4.8M
+              - generic [ref=f3e342]: Explore Area
+        - link "New York City New York, USA New York City Penthouses, lofts, and townhouses in Manhattan and Brooklyn's historic neighborhoods. 126 properties · $3.2M Explore Area" [ref=f3e345] [cursor=pointer]:
+          - /url: /locations/new-york
+          - img "New York City" [ref=f3e346]
+          - generic [ref=f3e348]:
+            - paragraph [ref=f3e349]: New York, USA
+            - heading "New York City" [level=3] [ref=f3e350]
+            - paragraph [ref=f3e351]: Penthouses, lofts, and townhouses in Manhattan and Brooklyn's historic neighborhoods.
+            - generic [ref=f3e352]:
+              - generic [ref=f3e353]: 126 properties · $3.2M
+              - generic [ref=f3e354]: Explore Area
+        - link "Beverly Hills California, USA Beverly Hills Architectural estates above the city with views stretching to the Pacific Ocean. 67 properties · $11.5M Explore Area" [ref=f3e357] [cursor=pointer]:
+          - /url: /locations/beverly-hills
+          - img "Beverly Hills" [ref=f3e358]
+          - generic [ref=f3e360]:
+            - paragraph [ref=f3e361]: California, USA
+            - heading "Beverly Hills" [level=3] [ref=f3e362]
+            - paragraph [ref=f3e363]: Architectural estates above the city with views stretching to the Pacific Ocean.
+            - generic [ref=f3e364]:
+              - generic [ref=f3e365]: 67 properties · $11.5M
+              - generic [ref=f3e366]: Explore Area
+        - link "Amalfi Coast Campania, Italy Amalfi Coast Cliffside villas with Mediterranean views along Italy's most celebrated coastline. 22 properties · $5.4M Explore Area" [ref=f3e369] [cursor=pointer]:
+          - /url: /locations/amalfi-coast
+          - img "Amalfi Coast" [ref=f3e370]
+          - generic [ref=f3e372]:
+            - paragraph [ref=f3e373]: Campania, Italy
+            - heading "Amalfi Coast" [level=3] [ref=f3e374]
+            - paragraph [ref=f3e375]: Cliffside villas with Mediterranean views along Italy's most celebrated coastline.
+            - generic [ref=f3e376]:
+              - generic [ref=f3e377]: 22 properties · $5.4M
+              - generic [ref=f3e378]: Explore Area
+        - link "Aspen Colorado, USA Aspen Mountain estates framed by aspen groves and the peaks of the Elk Mountains. 34 properties · $8.1M Explore Area" [ref=f3e381] [cursor=pointer]:
+          - /url: /locations/aspen
+          - img "Aspen" [ref=f3e382]
+          - generic [ref=f3e384]:
+            - paragraph [ref=f3e385]: Colorado, USA
+            - heading "Aspen" [level=3] [ref=f3e386]
+            - paragraph [ref=f3e387]: Mountain estates framed by aspen groves and the peaks of the Elk Mountains.
+            - generic [ref=f3e388]:
+              - generic [ref=f3e389]: 34 properties · $8.1M
+              - generic [ref=f3e390]: Explore Area
+        - link "Barcelona Catalonia, Spain Barcelona Contemporary apartments and restored townhouses in the Catalan capital. 41 properties · $1.9M Explore Area" [ref=f3e393] [cursor=pointer]:
+          - /url: /locations/barcelona
+          - img "Barcelona" [ref=f3e394]
+          - generic [ref=f3e396]:
+            - paragraph [ref=f3e397]: Catalonia, Spain
+            - heading "Barcelona" [level=3] [ref=f3e398]
+            - paragraph [ref=f3e399]: Contemporary apartments and restored townhouses in the Catalan capital.
+            - generic [ref=f3e400]:
+              - generic [ref=f3e401]: 41 properties · $1.9M
+              - generic [ref=f3e402]: Explore Area
+    - generic [ref=f3e406]:
+      - paragraph [ref=f3e408]: Testimonials
+      - generic [ref=f3e410]:
+        - generic [ref=f3e414]:
+          - blockquote [ref=f3e415]: "\"Meridian Estates didn't just sell our home — they understood its character and found a buyer who valued it as we did. The entire process was handled with a level of care we hadn't experienced before.\""
+          - generic [ref=f3e416]:
+            - paragraph [ref=f3e428]: Jonathan & Claire Whitfield
+            - paragraph [ref=f3e429]: Hawthorne Townhouse — Brooklyn, New York
+        - generic:
+          - blockquote: "\"As an international buyer, I needed someone who could navigate cross-border complexities and represent my interests from afar. Amelia and her team were exceptional from first viewing to closing.\""
+          - generic:
+            - paragraph: Dr. Ravi Kapadia
+            - paragraph: Maison Bellevue — Beverly Hills, California
+        - generic:
+          - blockquote: "\"They have an architect's sensibility. Julian walked us through each property pointing out details we would have missed entirely. We ended up with a home that genuinely suits how we live.\""
+          - generic:
+            - paragraph: Eleanor Hayes
+            - paragraph: The Ashbury Loft — Tribeca, New York
+        - generic:
+          - blockquote: "\"From the first conversation, it was clear this wasn't a volume business. Sophie took the time to understand what we were really looking for — a retreat, not just a property. She delivered exactly that.\""
+          - generic:
+            - paragraph: Michael & Anna Brandt
+            - paragraph: Villa Solemare — Costa Brava, Spain
+      - generic [ref=f3e430]:
+        - button "Previous testimonial" [ref=f3e431] [cursor=pointer]
+        - generic [ref=f3e434]:
+          - button "Go to testimonial 1" [ref=f3e435] [cursor=pointer]
+          - button "Go to testimonial 2" [ref=f3e436] [cursor=pointer]
+          - button "Go to testimonial 3" [ref=f3e437] [cursor=pointer]
+          - button "Go to testimonial 4" [ref=f3e438] [cursor=pointer]
+        - button "Next testimonial" [ref=f3e439] [cursor=pointer]
+    - generic [ref=f3e442]:
+      - img "Contemporary residential house" [ref=f3e444]
+      - generic [ref=f3e447]:
+        - paragraph [ref=f3e448]: Begin Your Search
+        - heading "Your next address starts here." [level=2] [ref=f3e450]: Your next addressstarts here.
+        - paragraph [ref=f3e451]: Browse our curated portfolio or speak with one of our advisors about what you're looking for. We're here to help you find it.
+        - generic [ref=f3e452]:
+          - button "Browse Properties" [ref=f3e453] [cursor=pointer]
+          - button "Talk to an Agent" [ref=f3e454] [cursor=pointer]
+  - contentinfo [ref=f3e455]:
+    - generic [ref=f3e456]:
+      - generic [ref=f3e457]:
+        - generic [ref=f3e458]:
+          - link "Maison Noir" [ref=f3e459] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f3e460]: A boutique real estate agency curating exceptional homes across the world's most sought-after locations since 2007.
+          - generic [ref=f3e461]:
+            - link "Social media" [ref=f3e462] [cursor=pointer]:
+              - /url: "#"
+            - link "Social media" [ref=f3e466] [cursor=pointer]:
+              - /url: "#"
+            - link "Social media" [ref=f3e469] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f3e474]:
+          - heading "Explore" [level=4] [ref=f3e475]
+          - list [ref=f3e476]:
+            - listitem [ref=f3e477]:
+              - link "Properties" [ref=f3e478] [cursor=pointer]:
+                - /url: /properties
+            - listitem [ref=f3e479]:
+              - link "Locations" [ref=f3e480] [cursor=pointer]:
+                - /url: /locations
+            - listitem [ref=f3e481]:
+              - link "Agents" [ref=f3e482] [cursor=pointer]:
+                - /url: /agents
+            - listitem [ref=f3e483]:
+              - link "About" [ref=f3e484] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f3e485]:
+              - link "Contact" [ref=f3e486] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f3e487]:
+          - heading "Contact" [level=4] [ref=f3e488]
+          - list [ref=f3e489]:
+            - listitem [ref=f3e490]: 14 Mercer Street, Floor 4
+            - listitem [ref=f3e491]: New York, NY 10013
+            - listitem [ref=f3e492]:
+              - link "+1 (212) 555-0100" [ref=f3e493] [cursor=pointer]:
+                - /url: tel:+12125550100
+            - listitem [ref=f3e494]:
+              - link "hello@meridianestates.com" [ref=f3e495] [cursor=pointer]:
+                - /url: mailto:hello@meridianestates.com
+        - generic [ref=f3e496]:
+          - heading "Newsletter" [level=4] [ref=f3e497]
+          - paragraph [ref=f3e498]: Receive new listings and market insights, curated monthly.
+          - generic [ref=f3e499]:
+            - textbox "Your email address" [ref=f3e500]
+            - button "Subscribe" [ref=f3e501] [cursor=pointer]
+      - generic [ref=f3e504]:
+        - paragraph [ref=f3e505]: © 2026 Meridian Estates. All rights reserved.
+        - generic [ref=f3e506]:
+          - link "Privacy Policy" [ref=f3e507] [cursor=pointer]:
+            - /url: "#"
+          - link "Terms of Service" [ref=f3e508] [cursor=pointer]:
+            - /url: "#"

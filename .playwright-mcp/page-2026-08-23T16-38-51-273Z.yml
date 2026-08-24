@@ -1,0 +1,692 @@
+- generic [active] [ref=f6e1]:
+  - banner [ref=f6e2]:
+    - generic [ref=f6e3]:
+      - link "LEATHER IMPEX" [ref=f6e4] [cursor=pointer]:
+        - /url: "#home"
+      - navigation [ref=f6e5]:
+        - link "Home" [ref=f6e6] [cursor=pointer]:
+          - /url: "#home"
+        - link "Shop" [ref=f6e7] [cursor=pointer]:
+          - /url: "#shop"
+        - link "About" [ref=f6e8] [cursor=pointer]:
+          - /url: "#about"
+        - link "FAQ" [ref=f6e9] [cursor=pointer]:
+          - /url: "#faq"
+        - link "Contact" [ref=f6e10] [cursor=pointer]:
+          - /url: "#contact"
+        - link "Track Order" [ref=f6e11] [cursor=pointer]:
+          - /url: "#track"
+      - generic [ref=f6e12]:
+        - textbox "Search products..." [ref=f6e14]
+        - link "Wishlist" [ref=f6e15] [cursor=pointer]:
+          - /url: "#wishlist"
+        - link "Cart" [ref=f6e18] [cursor=pointer]:
+          - /url: "#cart"
+  - generic [ref=f6e22]:
+    - generic [ref=f6e24]:
+      - generic [ref=f6e25]:
+        - text: Est. Karachi · Handcrafted Since Day One
+        - heading [level=1] [ref=f6e26]:
+          - text: Leather that
+          - emphasis [ref=f6e27]: ages
+          - text: with your story.
+        - paragraph [ref=f6e28]: Full-grain leather jackets for men and women — cut, stitched, and finished by hand in Karachi. Built to outlast trends.
+        - generic [ref=f6e29]:
+          - link "Shop Collection" [ref=f6e30] [cursor=pointer]:
+            - /url: "#shop"
+          - link "Our Story" [ref=f6e31] [cursor=pointer]:
+            - /url: "#about"
+        - generic [ref=f6e32]:
+          - generic [ref=f6e33]: ✓ 100% Genuine Leather
+          - generic [ref=f6e34]: ✓ Cash on Delivery
+          - generic [ref=f6e35]: ✓ Handstitched Finish
+      - img "Handstitched full-grain leather jacket" [ref=f6e37]
+    - generic [ref=f6e38]:
+      - generic [ref=f6e39]:
+        - text: Handpicked
+        - heading "Bestsellers" [level=2] [ref=f6e40]
+      - generic [ref=f6e116]:
+        - generic [ref=f6e117]:
+          - button "View Obsidian Legacy Jacket" [ref=f6e118] [cursor=pointer]:
+            - img "Obsidian Legacy Jacket" [ref=f6e119]
+            - generic [ref=f6e120]: Bestseller
+            - button "Add to wishlist" [ref=f6e121]
+            - button "Quick View" [ref=f6e124]
+          - generic [ref=f6e125]:
+            - generic [ref=f6e126]: Gents · Jackets
+            - heading [level=3] [ref=f6e127] [cursor=pointer]:
+              - button "Obsidian Legacy Jacket" [ref=f6e128]
+            - generic [ref=f6e129]:
+              - text: ★★★★★
+              - generic [ref=f6e130]: (128)
+            - generic [ref=f6e131]:
+              - generic [ref=f6e132]:
+                - deletion [ref=f6e133]: Rs. 8,999
+                - text: Rs. 6,499
+              - button "+" [ref=f6e134] [cursor=pointer]
+        - generic [ref=f6e135]:
+          - button "View Walnut Heritage Jacket" [ref=f6e136] [cursor=pointer]:
+            - img "Walnut Heritage Jacket" [ref=f6e137]
+            - generic [ref=f6e138]: Bestseller
+            - button "Add to wishlist" [ref=f6e139]
+            - button "Quick View" [ref=f6e142]
+          - generic [ref=f6e143]:
+            - generic [ref=f6e144]: Gents · Jackets
+            - heading [level=3] [ref=f6e145] [cursor=pointer]:
+              - button "Walnut Heritage Jacket" [ref=f6e146]
+            - generic [ref=f6e147]:
+              - text: ★★★★★
+              - generic [ref=f6e148]: (94)
+            - generic [ref=f6e149]:
+              - generic [ref=f6e150]:
+                - deletion [ref=f6e151]: Rs. 9,499
+                - text: Rs. 6,999
+              - button "+" [ref=f6e152] [cursor=pointer]
+        - generic [ref=f6e153]:
+          - button "View Camel Ridge Jacket" [ref=f6e154] [cursor=pointer]:
+            - img "Camel Ridge Jacket" [ref=f6e155]
+            - generic [ref=f6e156]: Bestseller
+            - button "Add to wishlist" [ref=f6e157]
+            - button "Quick View" [ref=f6e160]
+          - generic [ref=f6e161]:
+            - generic [ref=f6e162]: Gents · Jackets
+            - heading [level=3] [ref=f6e163] [cursor=pointer]:
+              - button "Camel Ridge Jacket" [ref=f6e164]
+            - generic [ref=f6e165]:
+              - text: ★★★★☆
+              - generic [ref=f6e166]: (76)
+            - generic [ref=f6e167]:
+              - generic [ref=f6e168]:
+                - deletion [ref=f6e169]: Rs. 8,999
+                - text: Rs. 6,499
+              - button "+" [ref=f6e170] [cursor=pointer]
+        - generic [ref=f6e171]:
+          - button "View Charcoal Snapback Jacket" [ref=f6e172] [cursor=pointer]:
+            - img "Charcoal Snapback Jacket" [ref=f6e173]
+            - generic [ref=f6e174]: Bestseller
+            - button "Add to wishlist" [ref=f6e175]
+            - button "Quick View" [ref=f6e178]
+          - generic [ref=f6e179]:
+            - generic [ref=f6e180]: Gents · Jackets
+            - heading [level=3] [ref=f6e181] [cursor=pointer]:
+              - button "Charcoal Snapback Jacket" [ref=f6e182]
+            - generic [ref=f6e183]:
+              - text: ★★★★★
+              - generic [ref=f6e184]: (61)
+            - generic [ref=f6e185]:
+              - generic [ref=f6e186]:
+                - deletion [ref=f6e187]: Rs. 9,499
+                - text: Rs. 6,999
+              - button "+" [ref=f6e188] [cursor=pointer]
+        - generic [ref=f6e189]:
+          - button "View Olive Ranger Jacket" [ref=f6e190] [cursor=pointer]:
+            - img "Olive Ranger Jacket" [ref=f6e191]
+            - generic [ref=f6e192]: Bestseller
+            - button "Add to wishlist" [ref=f6e193]
+            - button "Quick View" [ref=f6e196]
+          - generic [ref=f6e197]:
+            - generic [ref=f6e198]: Gents · Jackets
+            - heading [level=3] [ref=f6e199] [cursor=pointer]:
+              - button "Olive Ranger Jacket" [ref=f6e200]
+            - generic [ref=f6e201]:
+              - text: ★★★★★
+              - generic [ref=f6e202]: (58)
+            - generic [ref=f6e203]:
+              - generic [ref=f6e204]:
+                - deletion [ref=f6e205]: Rs. 9,299
+                - text: Rs. 6,799
+              - button "+" [ref=f6e206] [cursor=pointer]
+        - generic [ref=f6e207]:
+          - button "View Renegade Moto Jacket" [ref=f6e208] [cursor=pointer]:
+            - img "Renegade Moto Jacket" [ref=f6e209]
+            - generic [ref=f6e210]: Bestseller
+            - button "Add to wishlist" [ref=f6e211]
+            - button "Quick View" [ref=f6e214]
+          - generic [ref=f6e215]:
+            - generic [ref=f6e216]: Gents · Jackets
+            - heading [level=3] [ref=f6e217] [cursor=pointer]:
+              - button "Renegade Moto Jacket" [ref=f6e218]
+            - generic [ref=f6e219]:
+              - text: ★★★★★
+              - generic [ref=f6e220]: (103)
+            - generic [ref=f6e221]:
+              - generic [ref=f6e222]:
+                - deletion [ref=f6e223]: Rs. 9,999
+                - text: Rs. 7,499
+              - button "+" [ref=f6e224] [cursor=pointer]
+        - generic [ref=f6e225]:
+          - button "View Copper Outlaw Jacket" [ref=f6e226] [cursor=pointer]:
+            - img "Copper Outlaw Jacket" [ref=f6e227]
+            - generic [ref=f6e228]: Bestseller
+            - button "Add to wishlist" [ref=f6e229]
+            - button "Quick View" [ref=f6e232]
+          - generic [ref=f6e233]:
+            - generic [ref=f6e234]: Gents · Jackets
+            - heading [level=3] [ref=f6e235] [cursor=pointer]:
+              - button "Copper Outlaw Jacket" [ref=f6e236]
+            - generic [ref=f6e237]:
+              - text: ★★★★★
+              - generic [ref=f6e238]: (47)
+            - generic [ref=f6e239]:
+              - generic [ref=f6e240]:
+                - deletion [ref=f6e241]: Rs. 10,499
+                - text: Rs. 7,799
+              - button "+" [ref=f6e242] [cursor=pointer]
+        - generic [ref=f6e243]:
+          - button "View Midnight Brawler Jacket" [ref=f6e244] [cursor=pointer]:
+            - img "Midnight Brawler Jacket" [ref=f6e245]
+            - generic [ref=f6e246]: Bestseller
+            - button "Add to wishlist" [ref=f6e247]
+            - button "Quick View" [ref=f6e250]
+          - generic [ref=f6e251]:
+            - generic [ref=f6e252]: Gents · Jackets
+            - heading [level=3] [ref=f6e253] [cursor=pointer]:
+              - button "Midnight Brawler Jacket" [ref=f6e254]
+            - generic [ref=f6e255]:
+              - text: ★★★★★
+              - generic [ref=f6e256]: (39)
+            - generic [ref=f6e257]:
+              - generic [ref=f6e258]:
+                - deletion [ref=f6e259]: Rs. 10,499
+                - text: Rs. 7,799
+              - button "+" [ref=f6e260] [cursor=pointer]
+        - generic [ref=f6e261]:
+          - button "View Cocoa Racer Jacket" [ref=f6e262] [cursor=pointer]:
+            - img "Cocoa Racer Jacket" [ref=f6e263]
+            - generic [ref=f6e264]: Bestseller
+            - button "Add to wishlist" [ref=f6e265]
+            - button "Quick View" [ref=f6e268]
+          - generic [ref=f6e269]:
+            - generic [ref=f6e270]: Gents · Jackets
+            - heading [level=3] [ref=f6e271] [cursor=pointer]:
+              - button "Cocoa Racer Jacket" [ref=f6e272]
+            - generic [ref=f6e273]:
+              - text: ★★★★☆
+              - generic [ref=f6e274]: (33)
+            - generic [ref=f6e275]:
+              - generic [ref=f6e276]:
+                - deletion [ref=f6e277]: Rs. 8,999
+                - text: Rs. 6,599
+              - button "+" [ref=f6e278] [cursor=pointer]
+        - generic [ref=f6e279]:
+          - button "View Nightfall Speedway Jacket" [ref=f6e280] [cursor=pointer]:
+            - img "Nightfall Speedway Jacket" [ref=f6e281]
+            - generic [ref=f6e282]: Bestseller
+            - button "Add to wishlist" [ref=f6e283]
+            - button "Quick View" [ref=f6e286]
+          - generic [ref=f6e287]:
+            - generic [ref=f6e288]: Gents · Jackets
+            - heading [level=3] [ref=f6e289] [cursor=pointer]:
+              - button "Nightfall Speedway Jacket" [ref=f6e290]
+            - generic [ref=f6e291]:
+              - text: ★★★★★
+              - generic [ref=f6e292]: (45)
+            - generic [ref=f6e293]:
+              - generic [ref=f6e294]:
+                - deletion [ref=f6e295]: Rs. 9,299
+                - text: Rs. 8,799
+              - button "+" [ref=f6e296] [cursor=pointer]
+        - generic [ref=f6e297]:
+          - button "View Amber Bomber Jacket" [ref=f6e298] [cursor=pointer]:
+            - img "Amber Bomber Jacket" [ref=f6e299]
+            - generic [ref=f6e300]: Bestseller
+            - button "Add to wishlist" [ref=f6e301]
+            - button "Quick View" [ref=f6e304]
+          - generic [ref=f6e305]:
+            - generic [ref=f6e306]: Gents · Jackets
+            - heading [level=3] [ref=f6e307] [cursor=pointer]:
+              - button "Amber Bomber Jacket" [ref=f6e308]
+            - generic [ref=f6e309]:
+              - text: ★★★★☆
+              - generic [ref=f6e310]: (29)
+            - generic [ref=f6e311]:
+              - generic [ref=f6e312]:
+                - deletion [ref=f6e313]: Rs. 8,499
+                - text: Rs. 6,299
+              - button "+" [ref=f6e314] [cursor=pointer]
+        - generic [ref=f6e315]:
+          - button "View Slate Outlaw Jacket" [ref=f6e316] [cursor=pointer]:
+            - img "Slate Outlaw Jacket" [ref=f6e317]
+            - generic [ref=f6e318]: Bestseller
+            - button "Add to wishlist" [ref=f6e319]
+            - button "Quick View" [ref=f6e322]
+          - generic [ref=f6e323]:
+            - generic [ref=f6e324]: Gents · Jackets
+            - heading [level=3] [ref=f6e325] [cursor=pointer]:
+              - button "Slate Outlaw Jacket" [ref=f6e326]
+            - generic [ref=f6e327]:
+              - text: ★★★★★
+              - generic [ref=f6e328]: (22)
+            - generic [ref=f6e329]:
+              - generic [ref=f6e330]:
+                - deletion [ref=f6e331]: Rs. 10,299
+                - text: Rs. 7,599
+              - button "+" [ref=f6e332] [cursor=pointer]
+        - generic [ref=f6e333]:
+          - button "View Caramel Renegade Jacket" [ref=f6e334] [cursor=pointer]:
+            - img "Caramel Renegade Jacket" [ref=f6e335]
+            - generic [ref=f6e336]: Bestseller
+            - button "Add to wishlist" [ref=f6e337]
+            - button "Quick View" [ref=f6e340]
+          - generic [ref=f6e341]:
+            - generic [ref=f6e342]: Gents · Jackets
+            - heading [level=3] [ref=f6e343] [cursor=pointer]:
+              - button "Caramel Renegade Jacket" [ref=f6e344]
+            - generic [ref=f6e345]:
+              - text: ★★★★★
+              - generic [ref=f6e346]: (18)
+            - generic [ref=f6e347]:
+              - generic [ref=f6e348]:
+                - deletion [ref=f6e349]: Rs. 9,999
+                - text: Rs. 7,499
+              - button "+" [ref=f6e350] [cursor=pointer]
+        - generic [ref=f6e351]:
+          - button "View Fatigue Rider Jacket" [ref=f6e352] [cursor=pointer]:
+            - img "Fatigue Rider Jacket" [ref=f6e353]
+            - generic [ref=f6e354]: Bestseller
+            - button "Add to wishlist" [ref=f6e355]
+            - button "Quick View" [ref=f6e358]
+          - generic [ref=f6e359]:
+            - generic [ref=f6e360]: Gents · Jackets
+            - heading [level=3] [ref=f6e361] [cursor=pointer]:
+              - button "Fatigue Rider Jacket" [ref=f6e362]
+            - generic [ref=f6e363]:
+              - text: ★★★★★
+              - generic [ref=f6e364]: (78)
+            - generic [ref=f6e365]:
+              - generic [ref=f6e366]:
+                - deletion [ref=f6e367]: Rs. 9,399
+                - text: Rs. 6,899
+              - button "+" [ref=f6e368] [cursor=pointer]
+        - generic [ref=f6e369]:
+          - button "View Raven Speedway Jacket" [ref=f6e370] [cursor=pointer]:
+            - img "Raven Speedway Jacket" [ref=f6e371]
+            - generic [ref=f6e372]: Bestseller
+            - button "Add to wishlist" [ref=f6e373]
+            - button "Quick View" [ref=f6e376]
+          - generic [ref=f6e377]:
+            - generic [ref=f6e378]: Gents · Jackets
+            - heading [level=3] [ref=f6e379] [cursor=pointer]:
+              - button "Raven Speedway Jacket" [ref=f6e380]
+            - generic [ref=f6e381]:
+              - text: ★★★★★
+              - generic [ref=f6e382]: (56)
+            - generic [ref=f6e383]:
+              - generic [ref=f6e384]:
+                - deletion [ref=f6e385]: Rs. 9,399
+                - text: Rs. 6,899
+              - button "+" [ref=f6e386] [cursor=pointer]
+        - generic [ref=f6e387]:
+          - button "View Pewter Moto Jacket" [ref=f6e388] [cursor=pointer]:
+            - img "Pewter Moto Jacket" [ref=f6e389]
+            - generic [ref=f6e390]: Bestseller
+            - button "Add to wishlist" [ref=f6e391]
+            - button "Quick View" [ref=f6e394]
+          - generic [ref=f6e395]:
+            - generic [ref=f6e396]: Gents · Jackets
+            - heading [level=3] [ref=f6e397] [cursor=pointer]:
+              - button "Pewter Moto Jacket" [ref=f6e398]
+            - generic [ref=f6e399]:
+              - text: ★★★★★
+              - generic [ref=f6e400]: (90)
+            - generic [ref=f6e401]:
+              - generic [ref=f6e402]:
+                - deletion [ref=f6e403]: Rs. 9,799
+                - text: Rs. 7,299
+              - button "+" [ref=f6e404] [cursor=pointer]
+        - generic [ref=f6e405]:
+          - button "View Emerald Speedway Jacket" [ref=f6e406] [cursor=pointer]:
+            - img "Emerald Speedway Jacket" [ref=f6e407]
+            - generic [ref=f6e408]: Bestseller
+            - button "Add to wishlist" [ref=f6e409]
+            - button "Quick View" [ref=f6e412]
+          - generic [ref=f6e413]:
+            - generic [ref=f6e414]: Gents · Jackets
+            - heading [level=3] [ref=f6e415] [cursor=pointer]:
+              - button "Emerald Speedway Jacket" [ref=f6e416]
+            - generic [ref=f6e417]:
+              - text: ★★★★★
+              - generic [ref=f6e418]: (99)
+            - generic [ref=f6e419]:
+              - generic [ref=f6e420]:
+                - deletion [ref=f6e421]: Rs. 9,399
+                - text: Rs. 6,899
+              - button "+" [ref=f6e422] [cursor=pointer]
+        - generic [ref=f6e423]:
+          - button "View Midnight Muse Jacket" [ref=f6e424] [cursor=pointer]:
+            - img "Midnight Muse Jacket" [ref=f6e425]
+            - generic [ref=f6e426]: Bestseller
+            - button "Add to wishlist" [ref=f6e427]
+            - button "Quick View" [ref=f6e430]
+          - generic [ref=f6e431]:
+            - generic [ref=f6e432]: Ladies · Jackets
+            - heading [level=3] [ref=f6e433] [cursor=pointer]:
+              - button "Midnight Muse Jacket" [ref=f6e434]
+            - generic [ref=f6e435]:
+              - text: ★★★★★
+              - generic [ref=f6e436]: (52)
+            - generic [ref=f6e437]:
+              - generic [ref=f6e438]:
+                - deletion [ref=f6e439]: Rs. 9,499
+                - text: Rs. 6,999
+              - button "+" [ref=f6e440] [cursor=pointer]
+        - generic [ref=f6e441]:
+          - button "View Honey Bloom Jacket" [ref=f6e442] [cursor=pointer]:
+            - img "Honey Bloom Jacket" [ref=f6e443]
+            - generic [ref=f6e444]: Bestseller
+            - button "Add to wishlist" [ref=f6e445]
+            - button "Quick View" [ref=f6e448]
+          - generic [ref=f6e449]:
+            - generic [ref=f6e450]: Ladies · Jackets
+            - heading [level=3] [ref=f6e451] [cursor=pointer]:
+              - button "Honey Bloom Jacket" [ref=f6e452]
+            - generic [ref=f6e453]:
+              - text: ★★★★★
+              - generic [ref=f6e454]: (39)
+            - generic [ref=f6e455]:
+              - generic [ref=f6e456]:
+                - deletion [ref=f6e457]: Rs. 8,999
+                - text: Rs. 6,499
+              - button "+" [ref=f6e458] [cursor=pointer]
+        - generic [ref=f6e459]:
+          - button "View Blush Rebel Jacket" [ref=f6e460] [cursor=pointer]:
+            - img "Blush Rebel Jacket" [ref=f6e461]
+            - generic [ref=f6e462]: Bestseller
+            - button "Add to wishlist" [ref=f6e463]
+            - button "Quick View" [ref=f6e466]
+          - generic [ref=f6e467]:
+            - generic [ref=f6e468]: Ladies · Jackets
+            - heading [level=3] [ref=f6e469] [cursor=pointer]:
+              - button "Blush Rebel Jacket" [ref=f6e470]
+            - generic [ref=f6e471]:
+              - text: ★★★★★
+              - generic [ref=f6e472]: (28)
+            - generic [ref=f6e473]:
+              - generic [ref=f6e474]:
+                - deletion [ref=f6e475]: Rs. 9,699
+                - text: Rs. 7,199
+              - button "+" [ref=f6e476] [cursor=pointer]
+        - generic [ref=f6e477]:
+          - button "View Moss Boardroom Blazer" [ref=f6e478] [cursor=pointer]:
+            - img "Moss Boardroom Blazer" [ref=f6e479]
+            - generic [ref=f6e480]: Bestseller
+            - button "Add to wishlist" [ref=f6e481]
+            - button "Quick View" [ref=f6e484]
+          - generic [ref=f6e485]:
+            - generic [ref=f6e486]: Ladies · Jackets
+            - heading [level=3] [ref=f6e487] [cursor=pointer]:
+              - button "Moss Boardroom Blazer" [ref=f6e488]
+            - generic [ref=f6e489]:
+              - text: ★★★★★
+              - generic [ref=f6e490]: (41)
+            - generic [ref=f6e491]:
+              - generic [ref=f6e492]:
+                - deletion [ref=f6e493]: Rs. 9,999
+                - text: Rs. 7,499
+              - button "+" [ref=f6e494] [cursor=pointer]
+        - generic [ref=f6e495]:
+          - button "View Espresso Elegance Coat" [ref=f6e496] [cursor=pointer]:
+            - img "Espresso Elegance Coat" [ref=f6e497]
+            - generic [ref=f6e498]: Bestseller
+            - button "Add to wishlist" [ref=f6e499]
+            - button "Quick View" [ref=f6e502]
+          - generic [ref=f6e503]:
+            - generic [ref=f6e504]: Ladies · Jackets
+            - heading [level=3] [ref=f6e505] [cursor=pointer]:
+              - button "Espresso Elegance Coat" [ref=f6e506]
+            - generic [ref=f6e507]:
+              - text: ★★★★★
+              - generic [ref=f6e508]: (67)
+            - generic [ref=f6e509]:
+              - generic [ref=f6e510]:
+                - deletion [ref=f6e511]: Rs. 13,499
+                - text: Rs. 9,999
+              - button "+" [ref=f6e512] [cursor=pointer]
+        - generic [ref=f6e513]:
+          - button "View Graphite Moto Jacket" [ref=f6e514] [cursor=pointer]:
+            - img "Graphite Moto Jacket" [ref=f6e515]
+            - generic [ref=f6e516]: Bestseller
+            - button "Add to wishlist" [ref=f6e517]
+            - button "Quick View" [ref=f6e520]
+          - generic [ref=f6e521]:
+            - generic [ref=f6e522]: Ladies · Jackets
+            - heading [level=3] [ref=f6e523] [cursor=pointer]:
+              - button "Graphite Moto Jacket" [ref=f6e524]
+            - generic [ref=f6e525]:
+              - text: ★★★★★
+              - generic [ref=f6e526]: (28)
+            - generic [ref=f6e527]:
+              - generic [ref=f6e528]:
+                - deletion [ref=f6e529]: Rs. 9,699
+                - text: Rs. 7,199
+              - button "+" [ref=f6e530] [cursor=pointer]
+        - generic [ref=f6e531]:
+          - button "View Shatter Noir Jacket" [ref=f6e532] [cursor=pointer]:
+            - img "Shatter Noir Jacket" [ref=f6e533]
+            - generic [ref=f6e534]: Bestseller
+            - button "Add to wishlist" [ref=f6e535]
+            - button "Quick View" [ref=f6e538]
+          - generic [ref=f6e539]:
+            - generic [ref=f6e540]: Ladies · Jackets
+            - heading [level=3] [ref=f6e541] [cursor=pointer]:
+              - button "Shatter Noir Jacket" [ref=f6e542]
+            - generic [ref=f6e543]:
+              - text: ★★★★★
+              - generic [ref=f6e544]: (89)
+            - generic [ref=f6e545]:
+              - generic [ref=f6e546]:
+                - deletion [ref=f6e547]: Rs. 10,999
+                - text: Rs. 7,999
+              - button "+" [ref=f6e548] [cursor=pointer]
+        - generic [ref=f6e549]:
+          - button "View Mauve Wrap Jacket" [ref=f6e550] [cursor=pointer]:
+            - img "Mauve Wrap Jacket" [ref=f6e551]
+            - generic [ref=f6e552]: Bestseller
+            - button "Add to wishlist" [ref=f6e553]
+            - button "Quick View" [ref=f6e556]
+          - generic [ref=f6e557]:
+            - generic [ref=f6e558]: Ladies · Jackets
+            - heading [level=3] [ref=f6e559] [cursor=pointer]:
+              - button "Mauve Wrap Jacket" [ref=f6e560]
+            - generic [ref=f6e561]:
+              - text: ★★★★★
+              - generic [ref=f6e562]: (89)
+            - generic [ref=f6e563]:
+              - generic [ref=f6e564]:
+                - deletion [ref=f6e565]: Rs. 10,499
+                - text: Rs. 7,899
+              - button "+" [ref=f6e566] [cursor=pointer]
+        - generic [ref=f6e567]:
+          - button "View Forest Muse Jacket" [ref=f6e568] [cursor=pointer]:
+            - img "Forest Muse Jacket" [ref=f6e569]
+            - generic [ref=f6e570]: Bestseller
+            - button "Add to wishlist" [ref=f6e571]
+            - button "Quick View" [ref=f6e574]
+          - generic [ref=f6e575]:
+            - generic [ref=f6e576]: Ladies · Jackets
+            - heading [level=3] [ref=f6e577] [cursor=pointer]:
+              - button "Forest Muse Jacket" [ref=f6e578]
+            - generic [ref=f6e579]:
+              - text: ★★★★★
+              - generic [ref=f6e580]: (62)
+            - generic [ref=f6e581]:
+              - generic [ref=f6e582]:
+                - deletion [ref=f6e583]: Rs. 9,799
+                - text: Rs. 7,299
+              - button "+" [ref=f6e584] [cursor=pointer]
+        - generic [ref=f6e585]:
+          - button "View Mocha Mist Jacket" [ref=f6e586] [cursor=pointer]:
+            - img "Mocha Mist Jacket" [ref=f6e587]
+            - generic [ref=f6e588]: Bestseller
+            - button "Add to wishlist" [ref=f6e589]
+            - button "Quick View" [ref=f6e592]
+          - generic [ref=f6e593]:
+            - generic [ref=f6e594]: Ladies · Jackets
+            - heading [level=3] [ref=f6e595] [cursor=pointer]:
+              - button "Mocha Mist Jacket" [ref=f6e596]
+            - generic [ref=f6e597]:
+              - text: ★★★★★
+              - generic [ref=f6e598]: (78)
+            - generic [ref=f6e599]:
+              - generic [ref=f6e600]:
+                - deletion [ref=f6e601]: Rs. 9,399
+                - text: Rs. 6,899
+              - button "+" [ref=f6e602] [cursor=pointer]
+        - generic [ref=f6e603]:
+          - button "View Noir Crop Jacket" [ref=f6e604] [cursor=pointer]:
+            - img "Noir Crop Jacket" [ref=f6e605]
+            - generic [ref=f6e606]: Bestseller
+            - button "Add to wishlist" [ref=f6e607]
+            - button "Quick View" [ref=f6e610]
+          - generic [ref=f6e611]:
+            - generic [ref=f6e612]: Ladies · Jackets
+            - heading [level=3] [ref=f6e613] [cursor=pointer]:
+              - button "Noir Crop Jacket" [ref=f6e614]
+            - generic [ref=f6e615]:
+              - text: ★★★★★
+              - generic [ref=f6e616]: (92)
+            - generic [ref=f6e617]:
+              - generic [ref=f6e618]:
+                - deletion [ref=f6e619]: Rs. 9,499
+                - text: Rs. 6,999
+              - button "+" [ref=f6e620] [cursor=pointer]
+        - generic [ref=f6e621]:
+          - button "View Cognac Chic Jacket" [ref=f6e622] [cursor=pointer]:
+            - img "Cognac Chic Jacket" [ref=f6e623]
+            - generic [ref=f6e624]: Bestseller
+            - button "Add to wishlist" [ref=f6e625]
+            - button "Quick View" [ref=f6e628]
+          - generic [ref=f6e629]:
+            - generic [ref=f6e630]: Ladies · Jackets
+            - heading [level=3] [ref=f6e631] [cursor=pointer]:
+              - button "Cognac Chic Jacket" [ref=f6e632]
+            - generic [ref=f6e633]:
+              - text: ★★★★★
+              - generic [ref=f6e634]: (29)
+            - generic [ref=f6e635]:
+              - generic [ref=f6e636]:
+                - deletion [ref=f6e637]: Rs. 9,499
+                - text: Rs. 6,999
+              - button "+" [ref=f6e638] [cursor=pointer]
+        - generic [ref=f6e639]:
+          - button "View Basil Muse Jacket" [ref=f6e640] [cursor=pointer]:
+            - img "Basil Muse Jacket" [ref=f6e641]
+            - generic [ref=f6e642]: Bestseller
+            - button "Add to wishlist" [ref=f6e643]
+            - button "Quick View" [ref=f6e646]
+          - generic [ref=f6e647]:
+            - generic [ref=f6e648]: Ladies · Jackets
+            - heading [level=3] [ref=f6e649] [cursor=pointer]:
+              - button "Basil Muse Jacket" [ref=f6e650]
+            - generic [ref=f6e651]:
+              - text: ★★★★★
+              - generic [ref=f6e652]: (93)
+            - generic [ref=f6e653]:
+              - generic [ref=f6e654]:
+                - deletion [ref=f6e655]: Rs. 9,699
+                - text: Rs. 7,199
+              - button "+" [ref=f6e656] [cursor=pointer]
+        - generic [ref=f6e657]:
+          - button "View Dove Rider Jacket" [ref=f6e658] [cursor=pointer]:
+            - img "Dove Rider Jacket" [ref=f6e659]
+            - generic [ref=f6e660]: Bestseller
+            - button "Add to wishlist" [ref=f6e661]
+            - button "Quick View" [ref=f6e664]
+          - generic [ref=f6e665]:
+            - generic [ref=f6e666]: Ladies · Jackets
+            - heading [level=3] [ref=f6e667] [cursor=pointer]:
+              - button "Dove Rider Jacket" [ref=f6e668]
+            - generic [ref=f6e669]:
+              - text: ★★★★★
+              - generic [ref=f6e670]: (80)
+            - generic [ref=f6e671]:
+              - generic [ref=f6e672]:
+                - deletion [ref=f6e673]: Rs. 9,699
+                - text: Rs. 7,199
+              - button "+" [ref=f6e674] [cursor=pointer]
+    - generic [ref=f6e43]:
+      - generic [ref=f6e44]:
+        - generic [ref=f6e45]: 🪡
+        - text: Handstitched Craftsmanship
+      - generic [ref=f6e46]:
+        - generic [ref=f6e47]: 🚚
+        - text: Nationwide Delivery
+      - generic [ref=f6e48]:
+        - generic [ref=f6e49]: 💵
+        - text: Cash on Delivery
+      - generic [ref=f6e50]:
+        - generic [ref=f6e51]: 🛡
+        - text: Secure Checkout
+    - generic [ref=f6e52]:
+      - generic [ref=f6e53]:
+        - text: Testimonials
+        - heading "What Customers Say" [level=2] [ref=f6e54]
+      - generic [ref=f6e56]:
+        - generic [ref=f6e57]:
+          - text: “
+          - paragraph [ref=f6e58]: Ordered a wallet for my husband — the leather quality is genuinely premium, better than branded stores twice the price.
+          - generic [ref=f6e59]: Ayesha R.
+          - generic [ref=f6e60]: ★★★★★
+        - generic [ref=f6e61]:
+          - text: “
+          - paragraph [ref=f6e62]: The jacket fits perfectly and the stitching is so clean. Delivery was quick and COD made it easy to trust.
+          - generic [ref=f6e63]: Hamza K.
+          - generic [ref=f6e64]: ★★★★★
+        - generic [ref=f6e65]:
+          - text: “
+          - paragraph [ref=f6e66]: Bought a tote bag for my sister's birthday — packaging and quality felt very high-end. Will order again.
+          - generic [ref=f6e67]: Sana M.
+          - generic [ref=f6e68]: ★★★★☆
+  - contentinfo [ref=f6e69]:
+    - generic [ref=f6e70]:
+      - generic [ref=f6e71]:
+        - generic [ref=f6e72]: Leather Impex
+        - paragraph [ref=f6e73]: Handcrafted leather jackets for men and women — made in Karachi, built to last.
+        - generic [ref=f6e74]:
+          - link "Facebook" [ref=f6e75] [cursor=pointer]:
+            - /url: https://www.facebook.com/
+          - link "Instagram" [ref=f6e78] [cursor=pointer]:
+            - /url: https://www.instagram.com/
+          - link "WhatsApp" [ref=f6e83] [cursor=pointer]:
+            - /url: https://wa.me/923332169987
+      - generic [ref=f6e86]:
+        - heading "Shop" [level=4] [ref=f6e87]
+        - list [ref=f6e88]:
+          - listitem [ref=f6e89]:
+            - link "Gents Jackets" [ref=f6e90] [cursor=pointer]:
+              - /url: "#shop"
+          - listitem [ref=f6e91]:
+            - link "Ladies Jackets" [ref=f6e92] [cursor=pointer]:
+              - /url: "#shop"
+      - generic [ref=f6e93]:
+        - heading "Company" [level=4] [ref=f6e94]
+        - list [ref=f6e95]:
+          - listitem [ref=f6e96]:
+            - link "About Us" [ref=f6e97] [cursor=pointer]:
+              - /url: "#about"
+          - listitem [ref=f6e98]:
+            - link "FAQ" [ref=f6e99] [cursor=pointer]:
+              - /url: "#faq"
+          - listitem [ref=f6e100]:
+            - link "Contact" [ref=f6e101] [cursor=pointer]:
+              - /url: "#contact"
+          - listitem [ref=f6e102]:
+            - link "Track Order" [ref=f6e103] [cursor=pointer]:
+              - /url: "#track"
+      - generic [ref=f6e104]:
+        - heading "Policies" [level=4] [ref=f6e105]
+        - list [ref=f6e106]:
+          - listitem [ref=f6e107]:
+            - link "Return & Exchange" [ref=f6e108] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f6e109]:
+            - link "Privacy Policy" [ref=f6e110] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f6e111]:
+            - link "Terms of Service" [ref=f6e112] [cursor=pointer]:
+              - /url: "#"
+    - generic [ref=f6e113]: © 2026 Leather Impex, Saddar, Karachi. All rights reserved.
+  - link "💬" [ref=f6e114] [cursor=pointer]:
+    - /url: https://wa.me/923332169987?text=Hi%20Leather%20Impex%2C%20I%20have%20a%20query
+  - generic [ref=f6e115]: ✓ Added to cart
+  - alert [ref=f6e675]

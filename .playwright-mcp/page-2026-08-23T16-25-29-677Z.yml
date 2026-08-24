@@ -1,0 +1,397 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - navigation [ref=f2e3]:
+      - link "Aurelia Studio home" [ref=f2e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f2e5]: A
+        - generic [ref=f2e7]:
+          - generic [ref=f2e8]: Aurelia
+          - generic [ref=f2e9]: Studio
+      - list [ref=f2e10]:
+        - listitem [ref=f2e11]:
+          - link "Home" [ref=f2e12] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f2e14]:
+          - link "About" [ref=f2e15] [cursor=pointer]:
+            - /url: /about
+        - listitem [ref=f2e16]:
+          - link "Services" [ref=f2e17] [cursor=pointer]:
+            - /url: /services
+        - listitem [ref=f2e18]:
+          - link "Pricing" [ref=f2e19] [cursor=pointer]:
+            - /url: /pricing
+        - listitem [ref=f2e20]:
+          - link "Gallery" [ref=f2e21] [cursor=pointer]:
+            - /url: /gallery
+        - listitem [ref=f2e22]:
+          - link "Testimonials" [ref=f2e23] [cursor=pointer]:
+            - /url: /testimonials
+        - listitem [ref=f2e24]:
+          - link "Book" [ref=f2e25] [cursor=pointer]:
+            - /url: /book
+      - link "Book Appointment" [ref=f2e27] [cursor=pointer]:
+        - /url: /book
+  - main [ref=f2e33]:
+    - generic [ref=f2e34]:
+      - img "Luxury salon interior" [ref=f2e36]
+      - generic [ref=f2e40]:
+        - generic [ref=f2e41]: SoHo · New York
+        - heading "Where beauty becomes artistry" [level=1] [ref=f2e43]:
+          - generic [ref=f2e44]:
+            - generic [ref=f2e45]: Where
+            - generic [ref=f2e47]: beauty
+          - generic [ref=f2e49]: becomes
+          - generic [ref=f2e52]: artistry
+        - paragraph [ref=f2e56]: A modern luxury women’s salon devoted to hair, color, makeup, nails, skincare, and bridal beauty — performed by senior artists in an atmosphere of refined calm.
+        - generic [ref=f2e57]:
+          - link "Book Appointment" [ref=f2e58] [cursor=pointer]:
+            - /url: /book
+          - link "Explore Services" [ref=f2e65] [cursor=pointer]:
+            - /url: /services
+        - generic [ref=f2e69]:
+          - generic [ref=f2e70]:
+            - paragraph [ref=f2e71]: 15+
+            - paragraph [ref=f2e72]: Years of artistry
+          - generic [ref=f2e73]:
+            - paragraph [ref=f2e74]: "7"
+            - paragraph [ref=f2e75]: Beauty disciplines
+          - generic [ref=f2e76]:
+            - paragraph [ref=f2e77]: 4.9★
+            - paragraph [ref=f2e78]: Client rating
+    - generic [ref=f2e83]:
+      - generic [ref=f2e85]:
+        - generic [ref=f2e86]: Our Craft
+        - heading "Services crafted with intention" [level=2] [ref=f2e89]
+        - paragraph [ref=f2e90]: From precision cuts to bridal artistry, every service is a private ritual — tailored, unhurried, and performed by senior artists.
+      - generic [ref=f2e91]:
+        - article [ref=f2e92]:
+          - img "Hair" [ref=f2e95]
+          - generic [ref=f2e103]:
+            - heading "Hair" [level=3] [ref=f2e104]
+            - paragraph [ref=f2e105]: Cut, style & finish
+            - list [ref=f2e106]:
+              - listitem [ref=f2e107]:
+                - generic [ref=f2e108]: Signature Cut & Blowout
+                - generic [ref=f2e109]: $120
+              - listitem [ref=f2e110]:
+                - generic [ref=f2e111]: Luxury Blowout & Style
+                - generic [ref=f2e112]: $75
+              - listitem [ref=f2e113]:
+                - generic [ref=f2e114]: Keratin Smoothing Treatment
+                - generic [ref=f2e115]: $280
+            - generic [ref=f2e116]:
+              - generic [ref=f2e117]: 4 services
+              - generic [ref=f2e118]: View pricing →
+        - article [ref=f2e119]:
+          - img "Hair Color" [ref=f2e122]
+          - generic [ref=f2e130]:
+            - heading "Hair Color" [level=3] [ref=f2e131]
+            - paragraph [ref=f2e132]: Balayage, highlights & gloss
+            - list [ref=f2e133]:
+              - listitem [ref=f2e134]:
+                - generic [ref=f2e135]: Full Balayage
+                - generic [ref=f2e136]: $320
+              - listitem [ref=f2e137]:
+                - generic [ref=f2e138]: Partial Highlights
+                - generic [ref=f2e139]: $180
+              - listitem [ref=f2e140]:
+                - generic [ref=f2e141]: Root Touch-Up
+                - generic [ref=f2e142]: $130
+            - generic [ref=f2e143]:
+              - generic [ref=f2e144]: 4 services
+              - generic [ref=f2e145]: View pricing →
+        - article [ref=f2e146]:
+          - img "Makeup" [ref=f2e149]
+          - generic [ref=f2e154]:
+            - heading "Makeup" [level=3] [ref=f2e155]
+            - paragraph [ref=f2e156]: Editorial & event artistry
+            - list [ref=f2e157]:
+              - listitem [ref=f2e158]:
+                - generic [ref=f2e159]: Full Glam Makeup
+                - generic [ref=f2e160]: $140
+              - listitem [ref=f2e161]:
+                - generic [ref=f2e162]: Natural Radiance Look
+                - generic [ref=f2e163]: $90
+              - listitem [ref=f2e164]:
+                - generic [ref=f2e165]: Bridal Makeup
+                - generic [ref=f2e166]: $260
+            - generic [ref=f2e167]:
+              - generic [ref=f2e168]: 4 services
+              - generic [ref=f2e169]: View pricing →
+        - article [ref=f2e170]:
+          - img "Nails" [ref=f2e173]
+          - generic [ref=f2e177]:
+            - heading "Nails" [level=3] [ref=f2e178]
+            - paragraph [ref=f2e179]: Manicure & nail art
+            - list [ref=f2e180]:
+              - listitem [ref=f2e181]:
+                - generic [ref=f2e182]: Luxury Gel Manicure
+                - generic [ref=f2e183]: $70
+              - listitem [ref=f2e184]:
+                - generic [ref=f2e185]: Spa Pedicure
+                - generic [ref=f2e186]: $85
+              - listitem [ref=f2e187]:
+                - generic [ref=f2e188]: Nail Art & Embellishment
+                - generic [ref=f2e189]: $45
+            - generic [ref=f2e190]:
+              - generic [ref=f2e191]: 4 services
+              - generic [ref=f2e192]: View pricing →
+        - article [ref=f2e193]:
+          - img "Facial & Skincare" [ref=f2e196]
+          - generic [ref=f2e203]:
+            - heading "Facial & Skincare" [level=3] [ref=f2e204]
+            - paragraph [ref=f2e205]: Glow & rejuvenation
+            - list [ref=f2e206]:
+              - listitem [ref=f2e207]:
+                - generic [ref=f2e208]: Aurelia Signature Facial
+                - generic [ref=f2e209]: $160
+              - listitem [ref=f2e210]:
+                - generic [ref=f2e211]: HydraGlow Treatment
+                - generic [ref=f2e212]: $190
+              - listitem [ref=f2e213]:
+                - generic [ref=f2e214]: LED Light Therapy
+                - generic [ref=f2e215]: $75
+            - generic [ref=f2e216]:
+              - generic [ref=f2e217]: 4 services
+              - generic [ref=f2e218]: View pricing →
+        - article [ref=f2e219]:
+          - img "Spa" [ref=f2e222]
+          - generic [ref=f2e229]:
+            - heading "Spa" [level=3] [ref=f2e230]
+            - paragraph [ref=f2e231]: Body & wellness rituals
+            - list [ref=f2e232]:
+              - listitem [ref=f2e233]:
+                - generic [ref=f2e234]: Aromatherapy Body Massage
+                - generic [ref=f2e235]: $150
+              - listitem [ref=f2e236]:
+                - generic [ref=f2e237]: Hot Stone Ritual
+                - generic [ref=f2e238]: $175
+              - listitem [ref=f2e239]:
+                - generic [ref=f2e240]: Scalp & Hair Spa
+                - generic [ref=f2e241]: $95
+            - generic [ref=f2e242]:
+              - generic [ref=f2e243]: 4 services
+              - generic [ref=f2e244]: View pricing →
+        - article [ref=f2e245]:
+          - img "Bridal Beauty" [ref=f2e248]
+          - generic [ref=f2e252]:
+            - heading "Bridal Beauty" [level=3] [ref=f2e253]
+            - paragraph [ref=f2e254]: Your day, perfected
+            - list [ref=f2e255]:
+              - listitem [ref=f2e256]:
+                - generic [ref=f2e257]: Bridal Hair & Makeup Package
+                - generic [ref=f2e258]: $480
+              - listitem [ref=f2e259]:
+                - generic [ref=f2e260]: Bridal Party (per person)
+                - generic [ref=f2e261]: $160
+              - listitem [ref=f2e262]:
+                - generic [ref=f2e263]: Mother of the Bride
+                - generic [ref=f2e264]: $180
+            - generic [ref=f2e265]:
+              - generic [ref=f2e266]: 4 services
+              - generic [ref=f2e267]: View pricing →
+    - generic [ref=f2e270]:
+      - generic [ref=f2e271]:
+        - generic [ref=f2e273]:
+          - generic [ref=f2e274]: The Aurelia Difference
+          - heading "Why women choose Veloura" [level=2] [ref=f2e277]
+          - paragraph [ref=f2e278]: We are not a high-volume salon. We are a private studio where senior artists devote their full attention to a single client at a time.
+        - generic [ref=f2e279]:
+          - generic [ref=f2e280]:
+            - heading "Master Artists" [level=3] [ref=f2e284]
+            - paragraph [ref=f2e285]: A small team of senior stylists and aestheticians with decades of combined editorial and runway experience.
+          - generic [ref=f2e286]:
+            - heading "Private Atmosphere" [level=3] [ref=f2e290]
+            - paragraph [ref=f2e291]: An intimate, unhurried space designed for calm — no crowded floors, no rushed appointments.
+          - generic [ref=f2e292]:
+            - heading "Clean Beauty" [level=3] [ref=f2e299]
+            - paragraph [ref=f2e300]: Consciously curated, low-toxin products that respect your hair, skin, and the planet.
+          - generic [ref=f2e301]:
+            - heading "Bespoke Care" [level=3] [ref=f2e305]
+            - paragraph [ref=f2e306]: Every service begins with a consultation. Nothing is templated; everything is tailored to you.
+      - generic [ref=f2e308]:
+        - img "Luxury salon interior" [ref=f2e310]
+        - generic [ref=f2e312]:
+          - paragraph [ref=f2e313]: 100%
+          - paragraph [ref=f2e314]: Private, one-on-one appointments — never rushed.
+    - generic [ref=f2e316]:
+      - generic [ref=f2e318]:
+        - generic [ref=f2e319]: Disciplines
+        - heading "Seven disciplines, one standard" [level=2] [ref=f2e322]
+        - paragraph [ref=f2e323]: Each category is led by a specialist. Hover to explore the craft behind every service.
+      - generic [ref=f2e324]:
+        - generic [ref=f2e325]:
+          - img "Hair" [ref=f2e326]
+          - generic [ref=f2e328]:
+            - heading "Hair" [level=3] [ref=f2e336]
+            - paragraph [ref=f2e337]: Cut, style & finish
+        - generic [ref=f2e338]:
+          - img "Hair Color" [ref=f2e339]
+          - generic [ref=f2e341]:
+            - heading "Hair Color" [level=3] [ref=f2e349]
+            - paragraph [ref=f2e350]: Balayage, highlights & gloss
+        - generic [ref=f2e351]:
+          - img "Makeup" [ref=f2e352]
+          - generic [ref=f2e354]:
+            - heading "Makeup" [level=3] [ref=f2e359]
+            - paragraph [ref=f2e360]: Editorial & event artistry
+        - generic [ref=f2e361]:
+          - img "Nails" [ref=f2e362]
+          - generic [ref=f2e364]:
+            - heading "Nails" [level=3] [ref=f2e368]
+            - paragraph [ref=f2e369]: Manicure & nail art
+        - generic [ref=f2e370]:
+          - img "Facial & Skincare" [ref=f2e371]
+          - generic [ref=f2e373]:
+            - heading "Facial & Skincare" [level=3] [ref=f2e380]
+            - paragraph [ref=f2e381]: Glow & rejuvenation
+        - generic [ref=f2e382]:
+          - img "Spa" [ref=f2e383]
+          - generic [ref=f2e385]:
+            - heading "Spa" [level=3] [ref=f2e392]
+            - paragraph [ref=f2e393]: Body & wellness rituals
+        - generic [ref=f2e394]:
+          - img "Bridal Beauty" [ref=f2e395]
+          - generic [ref=f2e397]:
+            - heading "Bridal Beauty" [level=3] [ref=f2e401]
+            - paragraph [ref=f2e402]: Your day, perfected
+    - generic [ref=f2e404]:
+      - generic [ref=f2e406]:
+        - generic [ref=f2e407]: The Studio
+        - heading "A glimpse of Aurelia" [level=2] [ref=f2e410]
+        - paragraph [ref=f2e411]: Step inside a space designed for calm — warm, dim, and deliberately unhurried.
+      - generic [ref=f2e412]:
+        - generic [ref=f2e413]:
+          - img "Sophisticated salon interior" [ref=f2e414]
+          - paragraph [ref=f2e417]: Sophisticated salon interior
+        - generic [ref=f2e418]:
+          - img "Elegant curly hairstyle" [ref=f2e419]
+          - paragraph [ref=f2e422]: Elegant curly hairstyle
+        - generic [ref=f2e423]:
+          - img "Chic black and white salon decor" [ref=f2e424]
+          - paragraph [ref=f2e427]: Chic black and white salon decor
+        - generic [ref=f2e428]:
+          - img "Luxurious hand spa treatment" [ref=f2e429]
+          - paragraph [ref=f2e432]: Luxurious hand spa treatment
+        - generic [ref=f2e433]:
+          - img "Makeup brushes and beauty" [ref=f2e434]
+          - paragraph [ref=f2e437]: Makeup brushes and beauty
+        - generic [ref=f2e438]:
+          - img "Soothing facial treatment" [ref=f2e439]
+          - paragraph [ref=f2e442]: Soothing facial treatment
+    - generic [ref=f2e444]:
+      - generic [ref=f2e446]:
+        - generic [ref=f2e447]: Kind Words
+        - heading "Loved by women who expect more" [level=2] [ref=f2e450]
+        - paragraph [ref=f2e451]: Our clients are editors, artists, brides, and founders. They return because we treat every visit as the only one that matters.
+      - generic [ref=f2e452]:
+        - figure [ref=f2e453]:
+          - blockquote [ref=f2e457]: “Aurelia Studio is the only place in the city that truly listens. Every visit feels like a private atelier — the artistry, the calm, the attention to detail. I leave glowing, every single time.”
+          - generic [ref=f2e469]:
+            - img "Isabella Moreau" [ref=f2e471]
+            - generic [ref=f2e472]:
+              - paragraph [ref=f2e473]: Isabella Moreau
+              - paragraph [ref=f2e474]: Creative Director
+        - figure [ref=f2e475]:
+          - blockquote [ref=f2e479]: “They styled my entire bridal party flawlessly. The trial was thoughtful, the day-of service was calm and on time, and my hair and makeup lasted from morning photos to the last dance.”
+          - generic [ref=f2e491]:
+            - img "Sophia Laurent" [ref=f2e493]
+            - generic [ref=f2e494]:
+              - paragraph [ref=f2e495]: Sophia Laurent
+              - paragraph [ref=f2e496]: Bride, Spring 2025
+        - figure [ref=f2e497]:
+          - blockquote [ref=f2e501]: “The balayage here is unmatched. My color has never looked so natural or grown out so gracefully. Aurelia has ruined me for every other salon in New York.”
+          - generic [ref=f2e513]:
+            - img "Amara Chen" [ref=f2e515]
+            - generic [ref=f2e516]:
+              - paragraph [ref=f2e517]: Amara Chen
+              - paragraph [ref=f2e518]: Editor-in-Chief
+    - generic [ref=f2e522]:
+      - heading "Your private appointment awaits" [level=2] [ref=f2e524]
+      - paragraph [ref=f2e525]: Reserve your time with a senior artist. We confirm every booking personally — no automated queues, no crowded waiting room.
+      - generic [ref=f2e526]:
+        - link "Book Appointment" [ref=f2e527] [cursor=pointer]:
+          - /url: /book
+        - link "Contact Us" [ref=f2e534] [cursor=pointer]:
+          - /url: /contact
+  - contentinfo [ref=f2e538]:
+    - generic [ref=f2e539]:
+      - generic [ref=f2e540]:
+        - generic [ref=f2e541]:
+          - link "A Aurelia Studio" [ref=f2e542] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f2e543]: A
+            - generic [ref=f2e545]:
+              - generic [ref=f2e546]: Aurelia
+              - generic [ref=f2e547]: Studio
+          - paragraph [ref=f2e548]: A modern luxury women’s salon in the heart of SoHo — where artistry, calm, and bespoke beauty meet.
+          - generic [ref=f2e549]:
+            - link "Instagram" [ref=f2e550] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link "Facebook" [ref=f2e554] [cursor=pointer]:
+              - /url: https://facebook.com
+            - link "Email" [ref=f2e557] [cursor=pointer]:
+              - /url: mailto:hello@aureliastudio.com
+        - generic [ref=f2e561]:
+          - heading "Explore" [level=3] [ref=f2e562]
+          - list [ref=f2e563]:
+            - listitem [ref=f2e564]:
+              - link "Home" [ref=f2e565] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f2e566]:
+              - link "About" [ref=f2e567] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f2e568]:
+              - link "Services" [ref=f2e569] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=f2e570]:
+              - link "Pricing" [ref=f2e571] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=f2e572]:
+              - link "Gallery" [ref=f2e573] [cursor=pointer]:
+                - /url: /gallery
+            - listitem [ref=f2e574]:
+              - link "Testimonials" [ref=f2e575] [cursor=pointer]:
+                - /url: /testimonials
+            - listitem [ref=f2e576]:
+              - link "Book" [ref=f2e577] [cursor=pointer]:
+                - /url: /book
+        - generic [ref=f2e578]:
+          - heading "Contact" [level=3] [ref=f2e579]
+          - list [ref=f2e580]:
+            - listitem [ref=f2e581]:
+              - generic [ref=f2e585]: 248 Mercer Street, SoHo, New York, NY 10012
+            - listitem [ref=f2e586]:
+              - link "+1 (212) 555-0188" [ref=f2e589] [cursor=pointer]:
+                - /url: tel:+1 (212) 555-0188
+            - listitem [ref=f2e590]:
+              - link "hello@aureliastudio.com" [ref=f2e594] [cursor=pointer]:
+                - /url: mailto:hello@aureliastudio.com
+        - generic [ref=f2e595]:
+          - heading "Hours" [level=3] [ref=f2e596]
+          - list [ref=f2e597]:
+            - listitem [ref=f2e598]:
+              - generic [ref=f2e599]: Monday
+              - generic [ref=f2e603]: 10:00 AM – 8:00 PM
+            - listitem [ref=f2e604]:
+              - generic [ref=f2e605]: Tuesday
+              - generic [ref=f2e609]: 10:00 AM – 8:00 PM
+            - listitem [ref=f2e610]:
+              - generic [ref=f2e611]: Wednesday
+              - generic [ref=f2e615]: 10:00 AM – 8:00 PM
+            - listitem [ref=f2e616]:
+              - generic [ref=f2e617]: Thursday
+              - generic [ref=f2e621]: 10:00 AM – 9:00 PM
+            - listitem [ref=f2e622]:
+              - generic [ref=f2e623]: Friday
+              - generic [ref=f2e627]: 10:00 AM – 9:00 PM
+            - listitem [ref=f2e628]:
+              - generic [ref=f2e629]: Saturday
+              - generic [ref=f2e633]: 9:00 AM – 7:00 PM
+            - listitem [ref=f2e634]:
+              - generic [ref=f2e635]: Sunday
+              - generic [ref=f2e639]: 10:00 AM – 6:00 PM
+      - generic [ref=f2e640]:
+        - paragraph [ref=f2e641]: © 2026 Aurelia Studio. All rights reserved.
+        - paragraph [ref=f2e642]: Crafted with intention in New York City.
+  - alert [ref=f2e643]

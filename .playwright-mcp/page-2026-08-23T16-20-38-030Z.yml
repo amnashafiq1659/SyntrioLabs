@@ -1,0 +1,214 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Extended Attendify logo" [ref=e7]
+      - generic [ref=e8]:
+        - link "Features" [ref=e9] [cursor=pointer]:
+          - /url: "#features"
+        - link "How it Works" [ref=e10] [cursor=pointer]:
+          - /url: "#workflow"
+        - link "Customers" [ref=e11] [cursor=pointer]:
+          - /url: "#testimonials"
+        - link "Pricing" [ref=e12] [cursor=pointer]:
+          - /url: "#pricing"
+      - generic [ref=e13]:
+        - link "Sign In" [ref=e14] [cursor=pointer]:
+          - /url: /login
+        - link "Start Free" [ref=e15] [cursor=pointer]:
+          - /url: /register
+  - main [ref=e16]:
+    - generic [ref=e20]:
+      - generic [ref=e21]: Attendify 1.0 is now live
+      - heading "Your workforce, perfectly organized." [level=1] [ref=e25]
+      - paragraph [ref=e26]: Geofence-verified attendance, smarter shift planning, leave approvals, and real-time insights—all in one platform.
+      - generic [ref=e27]:
+        - generic [ref=e28]: Geo-aware attendance
+        - generic [ref=e32]: Shift & leave workflows
+        - generic [ref=e36]: Audit-ready security
+        - generic [ref=e40]: Holiday & office controls
+      - generic [ref=e46]:
+        - generic [ref=e47]: dashboard.attendify.com/overview
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]: Attendify Corp
+            - generic [ref=e61]:
+              - generic [ref=e62]: Navigation
+              - generic [ref=e63]: Overview
+              - generic [ref=e68]: Shift Planner
+              - generic [ref=e72]: Leave Tracker
+              - generic [ref=e77]: Audit Logs
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - generic [ref=e83]:
+                - heading "Welcome back, Sarah" [level=3] [ref=e84]
+                - paragraph [ref=e85]: Your shift today started at 09:00 AM.
+              - generic [ref=e86]: Active Shift
+            - generic [ref=e88]:
+              - generic [ref=e89]:
+                - generic [ref=e90]: Hours tracked
+                - generic [ref=e91]:
+                  - generic [ref=e92]: 38.5h
+                  - generic [ref=e93]: +2.1h
+              - generic [ref=e97]:
+                - generic [ref=e98]: On-time rate
+                - generic [ref=e99]:
+                  - generic [ref=e100]: 98.2%
+                  - generic [ref=e101]: Ideal
+              - generic [ref=e102]:
+                - generic [ref=e103]: Remaining leave
+                - generic [ref=e104]:
+                  - generic [ref=e105]: 14 days
+                  - generic [ref=e106]: Annual
+            - generic [ref=e107]:
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - text: Weekly attendance
+                  - generic [ref=e110]: "Average: 7.7 hours/day"
+                - button "Details" [ref=e111]
+              - generic [ref=e115]:
+                - generic [ref=e116]: Mon
+                - generic [ref=e119]: Tue
+                - generic [ref=e122]: Wed
+                - generic [ref=e125]: Thu
+                - generic [ref=e128]: Fri
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e134]: Operational clarity
+        - heading "Designed to feel calm, fast, and deeply reliable." [level=2] [ref=e135]
+        - paragraph [ref=e136]: Every module is designed around the real rhythm of modern workforce operations;from first clock-in to monthly reporting.
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - heading "Geo-aware attendance" [level=3] [ref=e145]
+          - paragraph [ref=e146]: Support remote and in-office teams with tamper-resistant clock-ins, geofence-aware logs, and clear lateness insights.
+          - generic [ref=e147]:
+            - generic [ref=e148]: Clock in / out
+            - generic [ref=e149]: Geofence logs
+        - generic [ref=e150]:
+          - heading "Shift and leave orchestration" [level=3] [ref=e156]
+          - paragraph [ref=e157]: Configure shift templates, assign grace windows, and manage holidays and leave requests from one streamlined workspace.
+          - generic [ref=e158]:
+            - generic [ref=e159]: Shift templates
+            - generic [ref=e160]: Leave approvals
+        - generic [ref=e161]:
+          - heading "Role-based admin control" [level=3] [ref=e169]
+          - paragraph [ref=e170]: Keep managers and employees on the right side of the workflow with clear permissions and structured employee management.
+          - generic [ref=e171]:
+            - generic [ref=e172]: Admin roles
+            - generic [ref=e173]: Employee profiles
+        - generic [ref=e174]:
+          - heading "Security that stays audit-ready" [level=3] [ref=e181]
+          - paragraph [ref=e182]: Every action is traceable through Better Auth-backed session handling and immutable operational logs.
+          - generic [ref=e183]:
+            - generic [ref=e184]: Session security
+            - generic [ref=e185]: Audit trails
+        - generic [ref=e186]:
+          - heading "Operational visibility in real time" [level=3] [ref=e193]
+          - paragraph [ref=e194]: Monitor hours worked, present days, late arrivals, and attendance anomalies without chasing spreadsheets.
+          - generic [ref=e195]:
+            - generic [ref=e196]: Live status
+            - generic [ref=e197]: Daily insights
+        - generic [ref=e198]:
+          - heading "Leadership-ready analytics" [level=3] [ref=e204]
+          - paragraph [ref=e205]: Turn attendance history into monthly summaries, coverage trends, and cleaner payroll prep for finance teams.
+          - generic [ref=e206]:
+            - generic [ref=e207]: Monthly summaries
+            - generic [ref=e208]: Payroll readiness
+    - generic [ref=e210]:
+      - generic [ref=e211]:
+        - generic [ref=e212]: How it works
+        - heading "From onboarding to monthly reports, everything stays organized in one workflow." [level=2] [ref=e213]
+        - paragraph [ref=e214]: Attendify brings attendance, scheduling, leave management, and reporting into one workflow your team can actually enjoy using.
+      - generic [ref=e215]:
+        - generic [ref=e216]:
+          - generic [ref=e217]: Step 1
+          - heading "Set up your workspace" [level=3] [ref=e223]
+          - paragraph [ref=e224]: Create your organization, invite employees, and configure shifts and attendance rules in minutes.
+          - generic [ref=e225]: Learn more
+        - generic [ref=e228]:
+          - generic [ref=e229]: Step 2
+          - heading "Track attendance" [level=3] [ref=e241]
+          - paragraph [ref=e242]: Employees clock in with geofence verification while managers monitor attendance in real time.
+          - generic [ref=e243]: Learn more
+        - generic [ref=e246]:
+          - generic [ref=e247]: Step 3
+          - heading "Approve & stay informed" [level=3] [ref=e253]
+          - paragraph [ref=e254]: Handle leave requests, manage holidays, and generate reports from one centralized dashboard.
+          - generic [ref=e255]: Learn more
+    - generic [ref=e259]:
+      - generic [ref=e260]:
+        - heading "Trusted by operators at scale." [level=2] [ref=e261]
+        - paragraph [ref=e262]: Read how global companies use Attendify to orchestrate schedules and build clean audit trails.
+      - generic [ref=e263]:
+        - generic [ref=e264]:
+          - paragraph [ref=e265]: “Before Attendify, we were managing employee check-ins across multiple spreadsheets and messaging channels. Now shifts, leave requests, and hours are mapped automatically with perfect role limits. The design feels like Linear—fast and clear.”
+          - generic [ref=e266]:
+            - generic [ref=e267]: DV
+            - generic [ref=e268]:
+              - generic [ref=e269]: David Vance
+              - generic [ref=e270]: VP of People, Acme Corp
+        - generic [ref=e271]:
+          - paragraph [ref=e272]: “Absolute game changer. The relational RBAC constraints gave us confidence that employee clock-in and payroll records couldn't be manipulated. The API is clean and integrates seamlessly with our internal finance reporting tools.”
+          - generic [ref=e273]:
+            - generic [ref=e274]: ER
+            - generic [ref=e275]:
+              - generic [ref=e276]: Elena Rostova
+              - generic [ref=e277]: Head of Operations, Retool
+        - generic [ref=e278]:
+          - paragraph [ref=e279]: “Our workers love the streamlined dashboard widget, and our accountants love the monthly analytics aggregates. We've saved hours on processing monthly calculations since making the switch to Attendify.”
+          - generic [ref=e280]:
+            - generic [ref=e281]: MA
+            - generic [ref=e282]:
+              - generic [ref=e283]: Marcus Aurel
+              - generic [ref=e284]: Chief Financial Officer, Loom
+    - generic [ref=e290]:
+      - paragraph [ref=e291]: Ready to simplify workforce management?
+      - heading "Everything your HR team needs. One powerful platform." [level=2] [ref=e292]: Everything your HR team needs.One powerful platform.
+      - paragraph [ref=e293]: Manage geofence-verified attendance, employee shifts, leave requests, holidays, and reporting from one intuitive dashboard built for growing businesses.
+      - generic [ref=e294]:
+        - link "Start Free →" [ref=e295] [cursor=pointer]:
+          - /url: /register
+        - link "Explore Features" [ref=e296] [cursor=pointer]:
+          - /url: "#features"
+      - generic [ref=e298]:
+        - generic [ref=e299]: Geofence Attendance
+        - generic [ref=e302]: Shift Scheduling
+        - generic [ref=e305]: Leave Management
+        - generic [ref=e308]: Holiday Calendar
+        - generic [ref=e311]: HR Reporting
+  - contentinfo [ref=e314]:
+    - generic [ref=e315]:
+      - generic [ref=e316]:
+        - generic [ref=e317]:
+          - link [ref=e319] [cursor=pointer]:
+            - /url: /
+            - img "Extended Attendify logo" [ref=e320]
+          - paragraph [ref=e321]: Handcrafted enterprise SaaS for tracking time, scheduling shifts, and modernizing payroll workflows.
+        - generic [ref=e322]:
+          - heading "Product" [level=4] [ref=e323]
+          - link "Features" [ref=e324] [cursor=pointer]:
+            - /url: "#features"
+          - link "Workflow" [ref=e325] [cursor=pointer]:
+            - /url: "#workflow"
+          - link "Pricing" [ref=e326] [cursor=pointer]:
+            - /url: "#pricing"
+        - generic [ref=e327]:
+          - heading "Resources" [level=4] [ref=e328]
+          - link "Documentation" [ref=e329] [cursor=pointer]:
+            - /url: /docs
+          - link "Support Centre" [ref=e330] [cursor=pointer]:
+            - /url: /support
+          - link "Blog" [ref=e331] [cursor=pointer]:
+            - /url: /blog
+        - generic [ref=e332]:
+          - heading "Legal" [level=4] [ref=e333]
+          - link "Privacy Policy" [ref=e334] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e335] [cursor=pointer]:
+            - /url: /terms
+          - link "Security" [ref=e336] [cursor=pointer]:
+            - /url: /security
+      - generic [ref=e337]:
+        - paragraph [ref=e338]: © 2026 Attendify Inc. All rights reserved.
+        - generic [ref=e339]: Handcrafted in London

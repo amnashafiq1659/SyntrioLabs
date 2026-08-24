@@ -1,0 +1,131 @@
+- generic [active] [ref=f6e1]:
+  - banner [ref=f6e2]:
+    - generic [ref=f6e3]:
+      - link "LEATHER IMPEX" [ref=f6e4] [cursor=pointer]:
+        - /url: "#home"
+      - navigation [ref=f6e5]:
+        - link "Home" [ref=f6e6] [cursor=pointer]:
+          - /url: "#home"
+        - link "Shop" [ref=f6e7] [cursor=pointer]:
+          - /url: "#shop"
+        - link "About" [ref=f6e8] [cursor=pointer]:
+          - /url: "#about"
+        - link "FAQ" [ref=f6e9] [cursor=pointer]:
+          - /url: "#faq"
+        - link "Contact" [ref=f6e10] [cursor=pointer]:
+          - /url: "#contact"
+        - link "Track Order" [ref=f6e11] [cursor=pointer]:
+          - /url: "#track"
+      - generic [ref=f6e12]:
+        - textbox "Search products..." [ref=f6e14]
+        - link "Wishlist" [ref=f6e15] [cursor=pointer]:
+          - /url: "#wishlist"
+        - link "Cart" [ref=f6e18] [cursor=pointer]:
+          - /url: "#cart"
+  - generic [ref=f6e22]:
+    - generic [ref=f6e24]:
+      - generic [ref=f6e25]:
+        - text: Est. Karachi · Handcrafted Since Day One
+        - heading [level=1] [ref=f6e26]:
+          - text: Leather that
+          - emphasis [ref=f6e27]: ages
+          - text: with your story.
+        - paragraph [ref=f6e28]: Full-grain leather jackets for men and women — cut, stitched, and finished by hand in Karachi. Built to outlast trends.
+        - generic [ref=f6e29]:
+          - link "Shop Collection" [ref=f6e30] [cursor=pointer]:
+            - /url: "#shop"
+          - link "Our Story" [ref=f6e31] [cursor=pointer]:
+            - /url: "#about"
+        - generic [ref=f6e32]:
+          - generic [ref=f6e33]: ✓ 100% Genuine Leather
+          - generic [ref=f6e34]: ✓ Cash on Delivery
+          - generic [ref=f6e35]: ✓ Handstitched Finish
+      - img "Handstitched full-grain leather jacket" [ref=f6e37]
+    - generic [ref=f6e39]:
+      - text: Handpicked
+      - heading "Bestsellers" [level=2] [ref=f6e40]
+    - generic [ref=f6e43]:
+      - generic [ref=f6e44]:
+        - generic [ref=f6e45]: 🪡
+        - text: Handstitched Craftsmanship
+      - generic [ref=f6e46]:
+        - generic [ref=f6e47]: 🚚
+        - text: Nationwide Delivery
+      - generic [ref=f6e48]:
+        - generic [ref=f6e49]: 💵
+        - text: Cash on Delivery
+      - generic [ref=f6e50]:
+        - generic [ref=f6e51]: 🛡
+        - text: Secure Checkout
+    - generic [ref=f6e52]:
+      - generic [ref=f6e53]:
+        - text: Testimonials
+        - heading "What Customers Say" [level=2] [ref=f6e54]
+      - generic [ref=f6e56]:
+        - generic [ref=f6e57]:
+          - text: “
+          - paragraph [ref=f6e58]: Ordered a wallet for my husband — the leather quality is genuinely premium, better than branded stores twice the price.
+          - generic [ref=f6e59]: Ayesha R.
+          - generic [ref=f6e60]: ★★★★★
+        - generic [ref=f6e61]:
+          - text: “
+          - paragraph [ref=f6e62]: The jacket fits perfectly and the stitching is so clean. Delivery was quick and COD made it easy to trust.
+          - generic [ref=f6e63]: Hamza K.
+          - generic [ref=f6e64]: ★★★★★
+        - generic [ref=f6e65]:
+          - text: “
+          - paragraph [ref=f6e66]: Bought a tote bag for my sister's birthday — packaging and quality felt very high-end. Will order again.
+          - generic [ref=f6e67]: Sana M.
+          - generic [ref=f6e68]: ★★★★☆
+  - contentinfo [ref=f6e69]:
+    - generic [ref=f6e70]:
+      - generic [ref=f6e71]:
+        - generic [ref=f6e72]: Leather Impex
+        - paragraph [ref=f6e73]: Handcrafted leather jackets for men and women — made in Karachi, built to last.
+        - generic [ref=f6e74]:
+          - link "Facebook" [ref=f6e75] [cursor=pointer]:
+            - /url: https://www.facebook.com/
+          - link "Instagram" [ref=f6e78] [cursor=pointer]:
+            - /url: https://www.instagram.com/
+          - link "WhatsApp" [ref=f6e83] [cursor=pointer]:
+            - /url: https://wa.me/923332169987
+      - generic [ref=f6e86]:
+        - heading "Shop" [level=4] [ref=f6e87]
+        - list [ref=f6e88]:
+          - listitem [ref=f6e89]:
+            - link "Gents Jackets" [ref=f6e90] [cursor=pointer]:
+              - /url: "#shop"
+          - listitem [ref=f6e91]:
+            - link "Ladies Jackets" [ref=f6e92] [cursor=pointer]:
+              - /url: "#shop"
+      - generic [ref=f6e93]:
+        - heading "Company" [level=4] [ref=f6e94]
+        - list [ref=f6e95]:
+          - listitem [ref=f6e96]:
+            - link "About Us" [ref=f6e97] [cursor=pointer]:
+              - /url: "#about"
+          - listitem [ref=f6e98]:
+            - link "FAQ" [ref=f6e99] [cursor=pointer]:
+              - /url: "#faq"
+          - listitem [ref=f6e100]:
+            - link "Contact" [ref=f6e101] [cursor=pointer]:
+              - /url: "#contact"
+          - listitem [ref=f6e102]:
+            - link "Track Order" [ref=f6e103] [cursor=pointer]:
+              - /url: "#track"
+      - generic [ref=f6e104]:
+        - heading "Policies" [level=4] [ref=f6e105]
+        - list [ref=f6e106]:
+          - listitem [ref=f6e107]:
+            - link "Return & Exchange" [ref=f6e108] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f6e109]:
+            - link "Privacy Policy" [ref=f6e110] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f6e111]:
+            - link "Terms of Service" [ref=f6e112] [cursor=pointer]:
+              - /url: "#"
+    - generic [ref=f6e113]: © 2026 Leather Impex, Saddar, Karachi. All rights reserved.
+  - link "💬" [ref=f6e114] [cursor=pointer]:
+    - /url: https://wa.me/923332169987?text=Hi%20Leather%20Impex%2C%20I%20have%20a%20query
+  - generic [ref=f6e115]: ✓ Added to cart
