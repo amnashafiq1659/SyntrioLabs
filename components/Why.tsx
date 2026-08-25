@@ -10,8 +10,8 @@ const reasons: Reason[] = [
         <path d="M12 2l3 5 5 .8-3.6 3.5.9 5-4.3-2.3-4.3 2.3.9-5L6 7.8 11 7z" />
       </svg>
     ),
-    title: "Senior engineers only",
-    desc: "No junior hand-offs — every project is built by engineers with 5+ years of production experience.",
+    title: "Experienced Development",
+    desc: "Thoughtful engineering, modern technologies, and a focus on maintainable, production-ready solutions.",
   },
   {
     num: "02",

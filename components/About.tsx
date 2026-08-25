@@ -38,7 +38,8 @@ export default function About() {
               <div className="item" style={{ ["--i" as string]: 2 }}>
                 <span className="check">
                   <svg viewBox="0 0 24 24">
-                    <path d="M12 2l1.8 5.2L19 9l-5.2 1.8L12 16l-1.8-5.2L5 9l5.2-1.8L12 2z" />
+                    <rect x="7" y="7" width="10" height="10" rx="2" />
+                    <path d="M9.5 3v2M14.5 3v2M9.5 19v2M14.5 19v2M3 9.5h2M3 14.5h2M19 9.5h2M19 14.5h2" />
                   </svg>
                 </span>
                 AI-driven innovation

@@ -87,7 +87,7 @@ export default function Contact() {
                 </svg>
               </Link>
               <Link
-                href="https://web.facebook.com/profile.php?id=61593668902644"
+                href="https://www.facebook.com/profile.php?id=61593910764185"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
