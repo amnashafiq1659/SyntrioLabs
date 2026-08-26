@@ -1,22 +1,86 @@
 "use client";
 
 import Link from "next/link";
-import { useRef, useState, type FormEvent } from "react";
+import { useState, ChangeEvent } from "react";
 
 export default function Contact() {
-  const [disabled, setDisabled] = useState(false);
-  const [show, setShow] = useState(false);
-  const formRef = useRef<HTMLFormElement>(null);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    company: "",
+    service: "",
+    budget: "",
+    message: "",
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false);
+  const [showError, setShowError] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setDisabled(true);
-    setTimeout(() => {
-      setShow(true);
-      formRef.current?.reset();
-      setDisabled(false);
-      setTimeout(() => setShow(false), 5000);
-    }, 500);
+
+    // Basic validation
+    if (!formData.name || !formData.email || !formData.message) {
+      setErrorMessage("Name, email, and message are required");
+      setShowError(true);
+      return;
+    }
+
+    // Email format validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(formData.email)) {
+      setErrorMessage("Invalid email format");
+      setShowError(true);
+      return;
+    }
+
+    setIsSubmitting(true);
+    setShowError(false);
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setShowSuccess(true);
+        // Reset form
+        setFormData({
+          name: "",
+          email: "",
+          company: "",
+          service: "",
+          budget: "",
+          message: "",
+        });
+        setTimeout(() => {
+          setShowSuccess(false);
+        }, 5000);
+      } else {
+        const errorData = await response.json();
+        setErrorMessage(errorData.error || "Failed to send message");
+        setShowError(true);
+      }
+    } catch (error) {
+      console.error("Contact form error:", error);
+      setErrorMessage("Failed to send message");
+      setShowError(true);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -100,62 +164,92 @@ export default function Contact() {
           </div>
         </div>
         <div className="form-panel reveal">
-          <form id="contactForm" ref={formRef} onSubmit={handleSubmit}>
+          <form id="contactForm" onSubmit={handleSubmit}>
             <div className="form-row">
               <div className="field">
                 <label>Full Name *</label>
-                <input type="text" placeholder="Your full name" required />
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your full name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                />
               </div>
               <div className="field">
                 <label>Email *</label>
-                <input type="email" placeholder="you@company.com" required />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="you@company.com"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                />
               </div>
             </div>
             <div className="field full">
               <label>Company</label>
-              <input type="text" placeholder="Your company name" />
+              <input
+                type="text"
+                name="company"
+                placeholder="Your company name"
+                value={formData.company}
+                onChange={handleChange}
+              />
             </div>
             <div className="form-row">
               <div className="field">
                 <label>Service Required</label>
-                <select>
-                  <option>Select service</option>
-                  <option>Website Development</option>
-                  <option>Chatbot Development</option>
-                  <option>AI Agent Development</option>
-                  <option>SaaS Development</option>
-                  <option>AI Solutions &amp; Automation</option>
-                  <option>Custom E-Commerce</option>
+                <select name="service" value={formData.service} onChange={handleChange}>
+                  <option value="">Select service</option>
+                  <option value="Website Development">Website Development</option>
+                  <option value="Chatbot Development">Chatbot Development</option>
+                  <option value="AI Agent Development">AI Agent Development</option>
+                  <option value="SaaS Development">SaaS Development</option>
+                  <option value="AI Solutions & Automation">AI Solutions &amp; Automation</option>
+                  <option value="Custom E-Commerce">Custom E-Commerce</option>
                 </select>
               </div>
               <div className="field">
                 <label>Budget</label>
-                <select>
-                  <option>Select range</option>
-                  <option>$2k – $5k</option>
-                  <option>$5k – $15k</option>
-                  <option>$15k – $40k</option>
-                  <option>$40k+</option>
+                <select name="budget" value={formData.budget} onChange={handleChange}>
+                  <option value="">Select range</option>
+                  <option value="$2k – $5k">$2k – $5k</option>
+                  <option value="$5k – $15k">$5k – $15k</option>
+                  <option value="$15k – $40k">$15k – $40k</option>
+                  <option value="$40k+">$40k+</option>
                 </select>
               </div>
             </div>
             <div className="field full" style={{ marginTop: "18px" }}>
               <label>Project Details</label>
-              <textarea placeholder="Tell us about your project, timeline, and goals..."></textarea>
+              <textarea
+                name="message"
+                placeholder="Tell us about your project, timeline, and goals..."
+                value={formData.message}
+                onChange={handleChange}
+              ></textarea>
             </div>
             <button
               type="submit"
               className="submit-btn"
               id="submitBtn"
               style={{ marginTop: "22px" }}
-              disabled={disabled}
+              disabled={isSubmitting}
             >
-              Send Message
+              {isSubmitting ? "Sending..." : "Send Message"}
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M22 2L11 13M22 2l-7 20-4-9-9-4z" />
               </svg>
             </button>
-            <div className={`success-msg${show ? " show" : ""}`} id="successMsg">
+            {showError && (
+              <div className="error-msg" style={{ color: "red", marginTop: "12px" }}>
+                {errorMessage}
+              </div>
+            )}
+            <div className={`success-msg${showSuccess ? " show" : ""}`} id="successMsg">
               Thanks — your message has been received. We&apos;ll reply within 24
               hours.
             </div>
