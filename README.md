@@ -21,7 +21,7 @@ npm run start    # serve the production build
 The original design is the source of truth — no redesign or reinterpretation.
 
 - **Styling** — the original CSS is preserved **verbatim** in `app/globals.css`. Because every selector in the source is global, this guarantees identical typography, colors, gradients, spacing, borders, shadows, hover states, transitions, keyframe animations, and responsive breakpoints (`900px`, `560px`).
-- **Fonts** — the exact same Google Fonts (`Space Grotesk`, `Plus Jakarta Sans`, `Inter`, `JetBrains Mono`) are loaded via `<link>` in `app/layout.tsx`, matching the original request.
+- **Fonts** — Google Fonts (`Syne`, `Fraunces`) are loaded via `<link>` in `app/layout.tsx`.
 - **Markup** — split into clean, reusable React components under `components/`, each reproducing the source HTML structure and class names exactly.
 - **Images** — served through `next/image` (Unsplash photos + simpleicons.org marquee logos); remote hosts are whitelisted in `next.config.mjs`.
 - **Navigation** — in-page anchors use `next/link`.

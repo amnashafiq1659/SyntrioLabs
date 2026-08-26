@@ -8,8 +8,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <Link href="#" className="logo">
-              <Logo />
-              Syntrio<span className="accent">Labs</span>
+              <Logo /><span>Syntrio<span className="accent">Labs</span></span>
             </Link>
             <p>
               Building intelligent digital experiences websites, AI agents,

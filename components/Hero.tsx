@@ -88,7 +88,7 @@ export default function Hero() {
             <span className="dot"></span> AI POWERED SOFTWARE DEVELOPMENT
           </div>
           <h1 className="reveal">
-            Building <span className="grad-word">Intelligent</span>
+            Turning Vision Into <span className="grad-word">Intelligent</span>
             <br />
             Digital Experiences
           </h1>
@@ -107,6 +107,9 @@ export default function Hero() {
               View Portfolio
             </Link>
           </div>
+          <p className="hero-tagline reveal">
+            From vision to reality, we build in sync.
+          </p>
         </div>
 
         <div className="hero-visual reveal">

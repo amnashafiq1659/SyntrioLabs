@@ -22,8 +22,7 @@ export default function Nav() {
     <header className="nav" id="siteNav" ref={navRef}>
       <div className="wrap nav-inner">
         <Link href="#" className="logo">
-          <Logo priority />
-          Syntrio<span className="accent">Labs</span>
+          <Logo priority /><span>Syntrio<span className="accent">Labs</span></span>
         </Link>
         <nav className="links">
           <Link href="#about">About</Link>

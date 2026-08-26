@@ -163,21 +163,27 @@ const countFor = (key: string) =>
 
 const gridVariants: Variants = {
   hidden: {},
-  visible: { transition: { staggerChildren: 0.08, delayChildren: 0.05 } },
+  visible: { transition: { staggerChildren: 0.12, delayChildren: 0.1 } },
 };
 
 const cardVariants: Variants = {
-  hidden: { opacity: 0, y: 26, scale: 0.94 },
+  hidden: { opacity: 0, y: 40, scale: 0.92 },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { type: "spring", stiffness: 130, damping: 18 },
+    transition: { 
+      type: "spring", 
+      stiffness: 100, 
+      damping: 15,
+      duration: 0.6 
+    },
   },
   exit: {
     opacity: 0,
-    scale: 0.9,
-    transition: { duration: 0.22, ease: "easeInOut" },
+    scale: 0.88,
+    y: 20,
+    transition: { duration: 0.3, ease: "easeInOut" },
   },
 };
 
@@ -254,6 +260,7 @@ function ProjectCard({ p }: { p: Project }) {
 
 export default function Projects() {
   const [active, setActive] = useState("all");
+  const [hasAnimated, setHasAnimated] = useState(false);
 
   const visible =
     active === "all"
@@ -291,8 +298,9 @@ export default function Projects() {
           className="proj-grid"
           variants={gridVariants}
           initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.15 }}
+          animate="visible"
+          viewport={{ once: true, amount: 0.08 }}
+          onViewportEnter={() => !hasAnimated && setHasAnimated(true)}
         >
           <AnimatePresence mode="popLayout">
             {visible.map((p) => (

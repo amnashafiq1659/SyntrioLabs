@@ -6,11 +6,9 @@ export default function About() {
       <div className="wrap">
         <div className="about-grid">
           <div>
-            <div className="eyebrow reveal">ABOUT US</div>
+            <div className="eyebrow reveal">ABOUT SYNTRIOLABS</div>
             <h2 className="reveal">
-              We build the future,
-              <br />
-              one <span className="grad-word">product</span> at a time
+              We build digital <span className="grad-word">products</span> that move businesses forward.
             </h2>
             <p className="lead reveal">
               SyntrioLabs is a product-focused digital agency building AI-powered
@@ -82,15 +80,6 @@ export default function About() {
               height={600}
               loading="lazy"
             />
-            <div className="about-collage">
-              <Image
-                src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=400&q=80"
-                alt="SyntrioLabs team collaborating"
-                width={400}
-                height={296}
-                loading="lazy"
-              />
-            </div>
             <div className="sat-card">
               <div className="lbl">Client Satisfaction</div>
               <div className="num">98%</div>
